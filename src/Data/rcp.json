@@ -5,6 +5,13 @@
     },
     "1": {
     "name": "Delicious Nutella Brownies",
-    "resources": ["flour", "salt", "eggs", "Nutella", "brown sugar", "vanila extract", "butter"]
+    "resources": ["flour", "salt", "eggs", "Nutella", "brown sugar", "vanila extract", "butter"],
+    "steps": {
+        "ing": [],
+        "bakingSteps": {
+            "step1" : "",
+            "step2" : ""
+        }
+    }
     }
 }]

@@ -6,3 +6,7 @@
 #whatUserHas {
     
 }
+#options {
+    overflow: auto;
+    height: 5cm;
+}

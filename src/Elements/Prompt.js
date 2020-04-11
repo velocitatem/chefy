@@ -25,10 +25,10 @@ for (var item in allResources) {
     <input id="item" name="item" value="${allResources[item]}" type="checkbox"></input> <label>${allResources[item]}</label> <br>
     `
     console.log()
-    $("#options").append(code)
+    $("#opts").append(code)
 }
 var btn = `<input type="submit" onClick={evaluate} value="Find!"></input>`
-$("#options").append(btn)
+$("#btn").append(btn)
 
 
 })
@@ -56,9 +56,14 @@ function Prompt() {
                 <h2>Select What you have</h2>
                 </div>
                     <div class="col-sm-8">
+                    <input placeholder="what do you have?"></input>
                     <div id="whatUserHas">  
                         <form id="options" action="/browse/">
+                            <div id="opts">
+                            </div>
+                            <div id="btn">
 
+                            </div>
                         </form>
                     </div>
                     </div>
