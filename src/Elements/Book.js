@@ -35,15 +35,19 @@ $(document).ready(function(){
         if(ui == resources.length) {
             $("#items").append(`
             <div class="row">
-            <div class="col-sm-4">
-            <h1>
+            <div class="col-sm-5">
+            <h3>
             ${book[r].name}
-            </h1>
+            </h3>
             </div>
-            <div class="col-sm-8">
-                Abt
+            <div class="col-sm-7">
+            <p id="aboutFood">
+            <b>ingredients:</b> ${book[r].steps.ingredients} <br>
+            Steps: ${allSteps}
+            </p>
             </div>
             </div>
+            <hr>
             `)
         }
         else if (ui >= (resources.length*0.8 )) {
@@ -53,6 +57,8 @@ $(document).ready(function(){
             <h3>
             ${book[r].name}
             </h3>
+            -<u>You might not have all the ingredients!</u></b>
+
             </div>
             <div class="col-sm-7">
             <p id="aboutFood">
