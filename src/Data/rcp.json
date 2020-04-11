@@ -1,0 +1,10 @@
+[{
+    "0": {
+    "name": "Soft Chewy Crisp Chocolate Chip Cookies",        
+    "resources": ["butter", "granulated white sugar", "light brown sugar", "golden syrup", "pure vanilla extract", "eggs", "flour", "baking soda", "salt", "chocolate chips"]
+    },
+    "1": {
+    "name": "Delicious Nutella Brownies",
+    "resources": ["flour", "salt", "eggs", "Nutella", "brown sugar", "vanila extract", "butter"]
+    }
+}]

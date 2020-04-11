@@ -1,11 +1,13 @@
 import React from 'react';
 import $ from  'jquery';
-
-function App() {
+/*
+ * https://www.yummly.com
+ */
+function Header() {
   return (
     <div>
     </div>
   );
 }
 
-export default App;
+export default Header;
