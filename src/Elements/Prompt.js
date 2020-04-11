@@ -27,7 +27,7 @@ for (var item in allResources) {
     console.log()
     $("#opts").append(code)
 }
-var btn = `<input type="submit" onClick={evaluate} value="Create!"></input>`
+var btn = ``
 $("#btn").append(btn)
 
 
@@ -68,14 +68,16 @@ function Prompt() {
                 <h2>Select What you have</h2>
                 </div>
                     <div class="col-sm-8">
+                    <center>
                     <input id="atHome" placeholder="what do you have?"></input>
+                    </center>
                     <div id="whatUserHas">  
                         <form id="options" action="/browse/">
                             <div id="opts">
 
                             </div>
                             <div id="btn">
-
+                            <input type="submit" onClick={evaluate} id="createBTN" value="Create!"></input>
                             </div>
                         </form>
                     </div>

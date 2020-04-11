@@ -8,11 +8,28 @@
 }
 #opts {
     overflow: auto;
-    height: 5cm;
+    height: 10cm;
+    border: solid;
+    border-color: burlywood;
+    border-top: none;
+    border-bottom: none;
 }
 #foodAltIMG {
     width: 100%;
 }
 #foodWrap {
     color: aqua;
+}
+#atHome {
+    width: 100%;
+    border: solid;
+    border-color: burlywood;
+}
+
+#createBTN {
+    width: 100%;
+    border: solid;
+    border-color: burlywood;
+    border-top: none;
+    color: black;
 }
