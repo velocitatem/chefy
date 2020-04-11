@@ -29,7 +29,10 @@
 #createBTN {
     width: 100%;
     border: solid;
-    border-color: burlywood;
+    border-color: #deb887;
     border-top: none;
     color: black;
+}
+#navB {
+    background-color: #deb887;
 }

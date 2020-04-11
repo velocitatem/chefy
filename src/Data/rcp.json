@@ -25,6 +25,57 @@
                 "step5" : "Heat gently, season well and stir in a small bunch of chopped coriander, reserving a few leaves to serve. Finish with 4 tbsp 0% Greek yogurt and extra coriander leaves."
             }
         }
-    }
+    },
 
+    "2": {
+        "name": "Chocolate brownie cake",
+        "resources": ["butter", "caster sugar", "light brown sugar", "chocolate", "golden syrup", "eggs", "vanilla extract", "plain flour", "baking powder", "cocoa powder"],
+        "steps": {
+            "ingredients": ["100g butter", "175g caster sugar", "75g light brown or muscovado sugar", "125g chocolate(plain or milk)", "1 tbsp golden syrup", "2 eggs", "1 tsp vanilla extract /essence", "100g plain flour", "½ tsp baking powder", "2 tbsp cocoa powder"],
+            "bakingSteps": {
+                "step1" : "Heat oven to 180C/fan 160C/gas 4. Grease and line a 20cm cake tin.",
+                "step2" : "Place the butter, caster sugar, brown sugar, chocolate and golden syrup in the pan and melt gently on a low heat until it is smooth and lump-free.",
+                "step3" : "Remove the pan from the heat.",
+                "step4" : "Break the eggs into the bowl and whisk with the fork until light and frothy. 5 Add the eggs, vanilla extract or essence, flour, baking powder and cocoa powder to the chocolate mixture and mix thoroughly.",
+                "step5" : "Put the mixture into the greased and lined cake tin and place on the middle shelf of the oven. Bake for 25-30 mins."
+            }
+        }
+    },
+
+    "3": {
+        "name": "strawberries summer salad",
+        "resources": ["sesame seeds", "poppy seeds", "white sugar", "olive oil", "white vinegar", "paprika", "Worcestershire sauce", "minced onion", "fresh spinach", "strawberries", "almonds"],
+        "steps": {
+            "ingredients": ["2 tablespoons sesame seeds","1 tablespoon poppy seeds", "1/2 cup white sugar","1/2 cup olive oil", "1/4 cup distilled white vinegar", "1/4 teaspoon paprika","1/4 teaspoon Worcestershire sauce", "1 tablespoon minced onion", "10 ounces fresh spinach - rinsed, dried and torn into bite-size pieces", "1 quart strawberries - cleaned, hulled and sliced", "1/4 cup almonds, blanched and slivered"],
+            "bakingSteps": {
+                "step1" : "In a medium bowl, whisk together the sesame seeds, poppy seeds, sugar, olive oil, vinegar, paprika, Worcestershire sauce and onion. Cover, and chill for one hour.",
+                "step2" : "In a large bowl, combine the spinach, strawberries and almonds. Pour dressing over salad, and toss. Refrigerate 10 to 15 minutes before serving."
+            }
+        }
+    },
+    "4": {
+        "name": "Green Egg Salad",
+        "resources": ["eggs", "avocado", "fresh spinach", "celery", "plain yogurt", "red pepper flakes", "garlic powder", "ground black pepper"],
+        "steps": {
+            "ingredients": ["7 hard-boiled eggs, peeled", "2 avocados - peeled, pitted, and mashed", "1 1/2 cups chopped spinach", "2 stalks celery, chopped (optional)", "1/2 cup plain yogurt", "1 pinch red pepper flakes, or to taste", "garlic powder, or to taste", "ground black pepper to taste"],
+            "bakingSteps": {
+                "step1" : "Mash eggs and avocado together in a bowl. Stir spinach, celery, and yogurt into the egg mixture; season with red pepper flakes, garlic powder, and black pepper."
+            }
+        }
+    },
+    "5": {
+        "name": "Simple Pasta",
+        "resources": ["salt", "pasta", "olive oil"],
+        "steps": {
+            "ingredients": ["a pinch of salt", "desired amount of pasta", "1 tbsp olive oil"],
+            "bakingSteps": {
+                "step1" : "Fill a large pot about 2/3 full of water. Since the pasta needs lots of room to move around as it cooks, use a big pot. For example, if you'll be cooking a 1 pound (450 g) box of pasta, get out a pot that's at least 4 US quarts (3.8 L) in size. Then, pour in enough water to come 2/3 up the side of the pot.",
+                "step2" : "Cover the pot and bring the water to a boil. Set the pot of water on the stove and put a lid on it. Turn the burner to high and let the water come to a boil. You'll know the water is boiling when you see steam escaping from under the lid",
+                "step3" : "Add salt and 1 pound (450 g) of pasta to the boiling water. Once the water boils vigorously, remove the lid and add 1 tablespoon (17 g) of salt and 1 pound (450 g) of pasta. If you're cooking long noodles, such as spaghetti, that don't fit in the pot, wait about 30 seconds and then push them into the water using a spoon or pasta fork.",
+                "step4" : "Set a timer for 3 to 8 minutes. Stir the noodles with a pasta fork to break the noodles up and leave the lid off the pot. Then, check the pasta package for a recommended cooking time and set a timer for the minimum time that's suggested. For example, if the box says to cook the noodles for 7 to 9 minutes, set a timer for 7 minutes",
+                "step5" : "Stir the noodles occasionally as they boil. The water should continue to bubble as the pasta cooks. Stir it every few minutes to prevent the noodles from sticking together.",
+                "step6" : "Bite into a noodle to see if it's cooked enough for you. Carefully scoop a noodle out of the water when the timer beeps and set it aside to cool a little. Bite into the noodle to tell if it's still hard in the center or if it's as soft as you like. Most people prefer to cook pasta until it's al dente, which means it's still a little firm in the center."
+            }
+        }
+    }
 }]

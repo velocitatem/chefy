@@ -4,10 +4,13 @@ import './index.css';
 import Prompt from './Elements/Prompt'
 import Home from './Elements/Home'
 import Book from './Elements/Book'
+import Header from './Elements/Header'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+<body>
+<Header></Header>
 <Router>
     <div>
       <aside>
@@ -16,15 +19,16 @@ ReactDOM.render(
         <Link to={`/browse`}></Link>
 
       </aside>
-
       <main>
+      
         <Route exact path="/" component={Home} />
         <Route path="/select" component={Prompt} />
         <Route path="/browse" component={Book} />
 
       </main>
     </div>
-  </Router>,
+  </Router>
+</body>,
   document.getElementById('root')
 );
 serviceWorker.unregister();
