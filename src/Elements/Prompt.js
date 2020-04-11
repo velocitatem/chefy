@@ -15,6 +15,7 @@ for (var t in rcp) {
         else {
             allResources.push(Cresources[i])
         }
+        //
     }
 }
 console.log(allResources)
