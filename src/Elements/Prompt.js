@@ -22,12 +22,12 @@ console.log(allResources)
 
 for (var item in allResources) {
     let code = `
-    <input id="item" name="item" value="${allResources[item]}" type="checkbox"></input> <label>${allResources[item]}</label> <br>
+    <div><input id="item" name="item" value="${allResources[item]}" type="checkbox"></input> <label> ${allResources[item]}</label></div>
     `
     console.log()
     $("#opts").append(code)
 }
-var btn = `<input type="submit" onClick={evaluate} value="Find!"></input>`
+var btn = `<input type="submit" onClick={evaluate} value="Create!"></input>`
 $("#btn").append(btn)
 
 
@@ -46,6 +46,18 @@ function evaluate() {
     console.log(selected)
 }
 
+// filter 
+
+$(document).ready(function(){
+    $("#atHome").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#opts div").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+
+
 function Prompt() {
   return (
     <div>
@@ -56,10 +68,11 @@ function Prompt() {
                 <h2>Select What you have</h2>
                 </div>
                     <div class="col-sm-8">
-                    <input placeholder="what do you have?"></input>
+                    <input id="atHome" placeholder="what do you have?"></input>
                     <div id="whatUserHas">  
                         <form id="options" action="/browse/">
                             <div id="opts">
+
                             </div>
                             <div id="btn">
 

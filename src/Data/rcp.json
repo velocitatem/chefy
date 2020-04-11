@@ -1,17 +1,30 @@
 [{
     "0": {
-    "name": "Soft Chewy Crisp Chocolate Chip Cookies",        
-    "resources": ["butter", "granulated white sugar", "light brown sugar", "golden syrup", "pure vanilla extract", "eggs", "flour", "baking soda", "salt", "chocolate chips"]
+        "name": "Chicken & chorizo jambalaya",
+        "resources": ["olive oil", "chicken breasts", "onion", "red pepper", "garlic", "chorizo", "Cajun seasoning", "long grain rice", "can plum tomato", "chicken stock"],
+        "steps": {
+            "ingredients": ["1 tbsp olive oil", "2 chicken breasts, chopped", "1 diced onion", "1 red pepper, thinly sliced", "2 garlic cloves, crushed", "75g chorizo, sliced", "1 tbsp Cajun seasoning", "250g long grain rice", "400g can plum tomato", "350ml chicken stock"],
+            "bakingSteps": {
+                "step1" : "Heat 1 tbsp olive oil in a large frying pan with a lid and brown 2 chopped chicken breasts for 5-8 mins until golden.",
+                "step2" : "Remove and set aside. Tip in the 1 diced onion and cook for 3-4 mins until soft.",
+                "step3" : "Add 1 thinly sliced red pepper, 2 crushed garlic cloves, 75g sliced chorizo and 1 tbsp Cajun seasoning, and cook for 5 mins more.",
+                "step4" : "Stir the chicken back in with 250g long grain rice, add the 400g can of tomatoes and 350ml chicken stock. Cover and simmer for 20-25 mins until the rice is tender."
+            }
+        }
     },
     "1": {
-    "name": "Delicious Nutella Brownies",
-    "resources": ["flour", "salt", "eggs", "Nutella", "brown sugar", "vanila extract", "butter"],
-    "steps": {
-        "ing": [],
-        "bakingSteps": {
-            "step1" : "",
-            "step2" : ""
+        "name": "Red lentil, chickpea & chilli soup",
+        "resources": ["cumin seeds", "chilli flakes", "olive oil", "red split lentils", "vegetable stock", "tomatoes", "chickpeas", "coriander"],
+        "steps": {
+            "ingredients": ["2 tsp cumin seeds", "large pinch chilli flakes", "1 tbsp olive oil", "1 red onion, chopped", "140g red split lentils", "850ml vegetable stock or water", " 400g can tomatoes, whole or chopped", "200g can chickpeas or ½ a can, drained and rinsed (freeze leftovers)", "small bunch coriander, roughly chopped (save a few leaves, to serve)", "4 tbsp 0% Greek yogurt, to serve"],
+            "bakingSteps": {
+                "step1" : "Heat a large saucepan and dry-fry 2 tsp cumin seeds and a large pinch of chilli flakes for 1 min, or until they start to jump around the pan and release their aromas.",
+                "step2" : "Add 1 tbsp olive oil and 1 chopped red onion, and cook for 5 mins. ",
+                "step3": "Stir in 140g red split lentils, 850ml vegetable stock or water and a 400g can tomatoes, then bring to the boil. Simmer for 15 mins until the lentils have softened",
+                "step4": "Whizz the soup with a stick blender or in a food processor until it is a rough purée, pour back into the pan and add a 200g can drained and rinsed chickpeas.",
+                "step5" : "Heat gently, season well and stir in a small bunch of chopped coriander, reserving a few leaves to serve. Finish with 4 tbsp 0% Greek yogurt and extra coriander leaves."
+            }
         }
     }
-    }
+
 }]

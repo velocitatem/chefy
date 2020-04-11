@@ -3,6 +3,11 @@ import $ from  'jquery';
 import rcp from '../Data/rcp.json'
 var output
 var book = rcp[0]
+function course() {
+    let windowCode = `
+    
+    `
+}
 $(document).ready(function(){
     console.clear()
     var url = new URLSearchParams(window.location.search);
@@ -19,31 +24,61 @@ $(document).ready(function(){
                 ui++
             }
         }
-        if(ui == resources.length) {
-            $("#posWithWhatUserHas").append(book[r].name)
+        let steps = book[r].steps.bakingSteps
+        let allSteps = ``
+        for (var s in steps) {
+            console.log(steps[s])
+            allSteps += `
+            <h3># ${s}: </h3> ${steps[s]}
+            `
         }
-        else if (ui >= (resources.length /2 )) {
-            $("#needsExtra").append(book[r].name)
+        if(ui == resources.length) {
+            $("#items").append(`
+            <div class="row">
+            <div class="col-sm-4">
+            <h1>
+            ${book[r].name}
+            </h1>
+            </div>
+            <div class="col-sm-8">
+                Abt
+            </div>
+            </div>
+            `)
+        }
+        else if (ui >= (resources.length*0.8 )) {
+            $("#items").append(`
+            <div class="row">
+            <div class="col-sm-5">
+            <h3>
+            ${book[r].name}
+            </h3>
+            </div>
+            <div class="col-sm-7">
+            <p id="aboutFood">
+            <b>ingredients:</b> ${book[r].steps.ingredients} <br>
+            Steps: ${allSteps}
+            </p>
+            </div>
+            </div>
+            <hr>
+            `)
         }
     }
 })
 
 function Book() {
   return (
-    <div>
-      <div class="container">
-      <div class="row">
-            FILTER
+    <div class="wrapper">
+      <div class="container" id="items">
+        
+        <div class="row">
+        FILTER        
         </div>
-        <div id="items" class="row">
-            <p id="posWithWhatUserHas">
-                <h1>Possible with what user has</h1>
-            </p>
-            <p id="needsExtra">
 
-            </p>
+
+
         </div>
-      </div>
     </div>
   );
 }

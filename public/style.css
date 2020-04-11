@@ -6,7 +6,13 @@
 #whatUserHas {
     
 }
-#options {
+#opts {
     overflow: auto;
     height: 5cm;
+}
+#foodAltIMG {
+    width: 100%;
+}
+#foodWrap {
+    color: aqua;
 }
