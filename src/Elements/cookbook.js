@@ -84,8 +84,7 @@ function Header() {
         <input type="text" id="bookfilter" placeholder="What are you looking for..." list="tagsF"></input>
         <datalist id="tagsF">
 
-        </datalist>
-        <hr id="bookSep"></hr>
+        </datalist>        
         <div id="Bookitems">
 
         </div>

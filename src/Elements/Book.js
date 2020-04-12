@@ -199,6 +199,7 @@ function Book() {
 "1": {
         "name": "",
         "resources": [""],
+        "tags": [],
         "steps": {
             "ingredients": [""],
             "bakingSteps": {

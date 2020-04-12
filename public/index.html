@@ -23,22 +23,23 @@
 </html>
 <style>
   #filter {
-    border: solid;
     width: 100%;
-    font-size: larger;
+    font-size: larger;    
   }
   #bookfilter {
     border: none;
     width: 100%;
     font-size: larger;
     cursor: active;
+    border-bottom: solid;
+
   }
   #filterW {    
     width: 100%;
   }
   #lbit {
     width: 90%;
-    cursor: grab;
+    cursor: pointer;
     display: inline;
   }
   #lbit:hover {
@@ -59,9 +60,13 @@
   transform: scale(2);
   padding: 30px;
   }
+  .itemCB:hover {
+    cursor: pointer;
+  }
 #itemCBC {
     padding-left: 0.4cm;
 } 
+
 #bookSep {
   border: solid;
 }
