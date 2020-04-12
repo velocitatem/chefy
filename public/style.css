@@ -13,6 +13,7 @@
     border-color: burlywood;
     border-top: none;
     border-bottom: none;
+    font-size: larger;
 }
 #foodAltIMG {
     width: 100%;
@@ -24,6 +25,7 @@
     width: 100%;
     border: solid;
     border-color: burlywood;
+    font-size: x-large;
 }
 
 #createBTN {
@@ -32,6 +34,7 @@
     border-color: #deb887;
     border-top: none;
     color: black;
+    font-size: xx-large;
 }
 #navB {
     background-color: #deb887;
@@ -44,7 +47,7 @@
     height: 3cm;
 }
 #qs {
-    padding-top: ;
+    
 }
 #bnr {
     width: 100%;

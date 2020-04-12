@@ -82,6 +82,7 @@ $(document).ready(function(){
                 missing+=1
             }
         }
+        //console.log
         let steps = book[r].steps.bakingSteps
         let allSteps = ``
         
@@ -89,7 +90,7 @@ $(document).ready(function(){
         if(ui == resources.length) {
             match(steps, allSteps, book, r)
         }
-        else if (ui >= (resources.length*0.7 )) {
+        else if (ui >= (resources.length*0.6 )) {
             for (var s in steps) {
                 allSteps += `
                 <h3># ${s}: </h3> ${steps[s]}
