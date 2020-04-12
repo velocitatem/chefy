@@ -14,12 +14,20 @@ var book = rcp[0]
 let found = 0
 let notFound = 0 
 var rcps = 0
+console.log(rcp)
 function ERRnotFound() {
 notFound+=1
 console.log(notFound)
+if (notFound == rcp[0].length){
+$("#items").html(`
+<center>
+<h2>Sorry... We couldn't find anything yet 🙁
+</center>
+`)
+}
+else {
 
-console.log()
-
+}
 }
 function match(steps, allSteps, book, r, step) {
     found+=1
@@ -77,13 +85,7 @@ $(document).ready(function(){
         for (var t in output) {
             if (resources.includes(output[t])) {
                 ui+=1
-
-            }
-            else if (resources.includes(output[t]) == false) {
-                missing+=1
-            }
-            
-
+            }    
         }
         //console.log
         let steps = book[r].steps.bakingSteps
@@ -93,7 +95,7 @@ $(document).ready(function(){
         if(ui == resources.length) {
             match(steps, allSteps, book, r)
         }
-        else if (ui >= (resources.length*0.6 )) {
+        else if (ui >= (resources.length*0.7)) {
             for (var s in steps) {
                 allSteps += `
                 <h3># ${s}: </h3> ${steps[s]}
@@ -119,7 +121,7 @@ $(document).ready(function(){
             <h3>
             ${book[r].name}
             </h3>
-            -<u>You might not have all the ingredients!</u></b>
+            -<u>You might not have all the ingredients! ${missingI}</u></b>
             </center>
             <p id="aboutFood">
             <b>Tags:</b><table>
@@ -142,16 +144,6 @@ $(document).ready(function(){
 
         
  
-    }
-    if (notFound == found+notFound) {
-        $("#items").html(`
-        <center>
-        <h2>Sorry... We couldn't find anything yet 🙁
-        </center>
-        `)
-    }
-    else {
-    
     }
     console.log(filterTags)
     for (var f in filterTags) {
