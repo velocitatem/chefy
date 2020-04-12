@@ -1,8 +1,63 @@
 import React from 'react';
 import $ from  'jquery';
 import rcp from '../Data/rcp.json'
+var filterTags = []
 var output
 var book = rcp[0]
+let found = 0
+let notFound = 0 
+var rcps = 0
+function ERRnotFound() {
+notFound+=1
+console.log(notFound)
+
+console.log()
+
+}
+function match(steps, allSteps, book, r, step) {
+    found+=1
+    for (var s in steps) {
+        allSteps += `
+        <h3># ${s}: </h3> ${steps[s]}
+        `
+    }    
+    let tags= ``
+    for(var t in book[r].tags) {
+        tags += `
+        <td>${book[r].tags[t]}</td>
+        `
+        if(filterTags.includes(book[r].tags[t])) {
+
+        }
+        else {
+            filterTags.push(book[r].tags[t])
+        }
+    }        
+    $("#items").append(`
+    <p>
+    <div class="row">
+    <div class="col-sm-12">
+
+        <center>
+        <h3>
+        ${book[r].name}
+        </h3>
+        </center>
+
+    <p id="aboutFood">
+    <b>Tags:</b><tags>
+    ${tags}
+    </tags> <br>
+    <b>ingredients:</b> ${book[r].steps.ingredients} <br>
+    ${allSteps}
+    </p>
+    </div>
+    <hr>
+    </div>
+    </p>
+    `)
+}
+
 $(document).ready(function(){
     console.clear()
     var url = new URLSearchParams(window.location.search);
@@ -24,27 +79,7 @@ $(document).ready(function(){
         
 
         if(ui == resources.length) {
-            for (var s in steps) {
-                allSteps += `
-                <h3># ${s}: </h3> ${steps[s]}
-                `
-            }            
-            $("#items").append(`
-            <div class="row">
-            <div class="col-sm-5">
-            <h3>
-            ${book[r].name}
-            </h3>
-            </div>
-            <div class="col-sm-7">
-            <p id="aboutFood">
-            <b>ingredients:</b> ${book[r].steps.ingredients} <br>
-            Steps: ${allSteps}
-            </p>
-            </div>
-            </div>
-            <hr>
-            `)
+            match(steps, allSteps, book, r)
         }
         else if (ui >= (resources.length*0.8 )) {
             for (var s in steps) {
@@ -52,34 +87,76 @@ $(document).ready(function(){
                 <h3># ${s}: </h3> ${steps[s]}
                 `
             }
+            let tags= ``
+            for(var t in book[r].tags) {
+                tags += `
+                <td>${book[r].tags[t]}</td>
+                `
+                if(filterTags.includes(book[r].tags[t])) {
+
+                }
+                else {
+                    filterTags.push(book[r].tags[t])
+                }
+            }
             $("#items").append(`
+            <p>
             <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-12">
+            <center>
             <h3>
             ${book[r].name}
             </h3>
             -<u>You might not have all the ingredients!</u></b>
-
-            </div>
-            <div class="col-sm-7">
+            </center>
             <p id="aboutFood">
+            <b>Tags:</b><table>
+            <tr>
+            ${tags}
+            </tr>
+            </table> <br>
             <b>ingredients:</b> ${book[r].steps.ingredients} <br>
-            Steps: ${allSteps}
+            ${allSteps}
             </p>
             </div>
-            </div>
             <hr>
+            </div>
+            </p>
             `)
         }
-        else if (missing >= ui ) {                        
-
+        else {                        
+            ERRnotFound()
         }
  
     }
+    if (notFound == found+notFound) {
+        $("#items").html(`
+        <center>
+        <h2>Sorry... We couldn't find anything yet 🙁
+        </center>
+        `)
+    }
+    else {
+    
+    }
+    console.log(filterTags)
+    for (var f in filterTags) {
+        $("#filterO").append(`
+        <option value="${filterTags[f]}">${filterTags[f]}</options>
+        `)
+    }
+
 })
 
-$("#items").html(" ")
 
+$(document).ready(function(){
+    $("#filter").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#items div").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
 
 function Book() {
   return (
@@ -87,12 +164,14 @@ function Book() {
       <div class="container" >
         
         <div class="row">
-        FILTER        
+            <div id="filterW">
+                <input id="filter" list="filterO" placeholder="select category.."></input>    
+                <datalist id="filterO">                
+                </datalist> 
+            </div>
         </div>
         <div id="items">
         </div>
-
-
         </div>
     </div>
   );

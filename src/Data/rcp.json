@@ -1,6 +1,7 @@
 [{
     "0": {
         "name": "Chicken & chorizo jambalaya",
+        "tags": ["Spanish"],
         "resources": ["olive oil", "chicken breasts", "onion", "red pepper", "garlic", "chorizo", "Cajun seasoning", "long grain rice", "can plum tomato", "chicken stock"],
         "steps": {
             "ingredients": ["1 tbsp olive oil", "2 chicken breasts, chopped", "1 diced onion", "1 red pepper, thinly sliced", "2 garlic cloves, crushed", "75g chorizo, sliced", "1 tbsp Cajun seasoning", "250g long grain rice", "400g can plum tomato", "350ml chicken stock"],
@@ -15,6 +16,7 @@
     "1": {
         "name": "Red lentil, chickpea & chilli soup",
         "resources": ["cumin seeds", "chilli flakes", "olive oil", "red split lentils", "vegetable stock", "tomatoes", "chickpeas", "coriander"],
+        "tags": ["Soup", "Vegetarian"],
         "steps": {
             "ingredients": ["2 tsp cumin seeds", "large pinch chilli flakes", "1 tbsp olive oil", "1 red onion, chopped", "140g red split lentils", "850ml vegetable stock or water", " 400g can tomatoes, whole or chopped", "200g can chickpeas or ½ a can, drained and rinsed (freeze leftovers)", "small bunch coriander, roughly chopped (save a few leaves, to serve)", "4 tbsp 0% Greek yogurt, to serve"],
             "bakingSteps": {
@@ -30,6 +32,7 @@
     "2": {
         "name": "Chocolate brownie cake",
         "resources": ["butter", "caster sugar", "light brown sugar", "chocolate", "golden syrup", "eggs", "vanilla extract", "plain flour", "baking powder", "cocoa powder"],
+        "tags": ["Dessert", "Cake"],    
         "steps": {
             "ingredients": ["100g butter", "175g caster sugar", "75g light brown or muscovado sugar", "125g chocolate(plain or milk)", "1 tbsp golden syrup", "2 eggs", "1 tsp vanilla extract /essence", "100g plain flour", "½ tsp baking powder", "2 tbsp cocoa powder"],
             "bakingSteps": {
@@ -45,6 +48,7 @@
     "3": {
         "name": "strawberries summer salad",
         "resources": ["sesame seeds", "poppy seeds", "white sugar", "olive oil", "white vinegar", "paprika", "Worcestershire sauce", "minced onion", "fresh spinach", "strawberries", "almonds"],
+        "tags": ["Salad", "Vegetarian"],    
         "steps": {
             "ingredients": ["2 tablespoons sesame seeds","1 tablespoon poppy seeds", "1/2 cup white sugar","1/2 cup olive oil", "1/4 cup distilled white vinegar", "1/4 teaspoon paprika","1/4 teaspoon Worcestershire sauce", "1 tablespoon minced onion", "10 ounces fresh spinach - rinsed, dried and torn into bite-size pieces", "1 quart strawberries - cleaned, hulled and sliced", "1/4 cup almonds, blanched and slivered"],
             "bakingSteps": {
@@ -56,6 +60,7 @@
     "4": {
         "name": "Green Egg Salad",
         "resources": ["eggs", "avocado", "fresh spinach", "celery", "plain yogurt", "red pepper flakes", "garlic powder", "ground black pepper"],
+        "tags": ["Salad", "Vegetarian"],    
         "steps": {
             "ingredients": ["7 hard-boiled eggs, peeled", "2 avocados - peeled, pitted, and mashed", "1 1/2 cups chopped spinach", "2 stalks celery, chopped (optional)", "1/2 cup plain yogurt", "1 pinch red pepper flakes, or to taste", "garlic powder, or to taste", "ground black pepper to taste"],
             "bakingSteps": {
@@ -66,6 +71,7 @@
     "5": {
         "name": "Simple Pasta",
         "resources": ["salt", "pasta", "olive oil"],
+        "tags": ["Italian", "Vegetarian"],    
         "steps": {
             "ingredients": ["a pinch of salt", "desired amount of pasta", "1 tbsp olive oil"],
             "bakingSteps": {
@@ -75,6 +81,22 @@
                 "step4" : "Set a timer for 3 to 8 minutes. Stir the noodles with a pasta fork to break the noodles up and leave the lid off the pot. Then, check the pasta package for a recommended cooking time and set a timer for the minimum time that's suggested. For example, if the box says to cook the noodles for 7 to 9 minutes, set a timer for 7 minutes",
                 "step5" : "Stir the noodles occasionally as they boil. The water should continue to bubble as the pasta cooks. Stir it every few minutes to prevent the noodles from sticking together.",
                 "step6" : "Bite into a noodle to see if it's cooked enough for you. Carefully scoop a noodle out of the water when the timer beeps and set it aside to cool a little. Bite into the noodle to tell if it's still hard in the center or if it's as soft as you like. Most people prefer to cook pasta until it's al dente, which means it's still a little firm in the center."
+            }
+        }
+    },
+    "6": {
+        "name": "Granny's German Schnitzel Recipe",
+        "resources": ["pork", "flour", "eggs", "lemon juice", "bread crumb", "vegetable oil", "lemon"],
+        "steps": {
+            "ingredients": ["4 boneless pork or veal chops", "1 teaspoon salt", "1/2 teaspoon black pepper", "1 cup all-purpose flour", "2 large eggs", "1 tablespoon lemon juice", "1 cup plain bread crumbs", "Vegetable oil for frying", "lemon slices"],
+            "bakingSteps": {
+                "step1" : "Trim meat of any unwanted fat (if desired). Lay the pork or veal chops out on a countertop between two layers of plastic wrap. Pound out chops until 1/4 inch thick. Season with salt and pepper.",
+                "step2": "Spread flour out into a shallow dish. In another shallow dish, whisk eggs together with lemon juice. In a third shallow dish, spread out bread crumbs.",
+                "step3": "Pour about 1/4 inch of vegetable oil into a large deep skillet. Bring oil to 350 degrees F.",
+                "step4": "Dredge chops into flour to coat, then immediately dip into eggs to coat, followed by bread crumbs to coat.",
+                "step5": "Place chops into the hot oil and fry 3 to 4 minutes. Work in batches if needed based on size of pan. Chops shouldn't be crowded.",
+                "step6": "Gently flip over and cook for an additional 3 to 4 minutes on the other side until chop reaches a minimum internal temperature of 145 F and is browned and crisp.",
+                "step7": "serve with hot lemon slices"
             }
         }
     }
