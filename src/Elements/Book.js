@@ -82,13 +82,12 @@ $(document).ready(function(){
             else if (resources.includes(output[t]) == false) {
                 missing+=1
             }
-            var arr = resources.filter(i => (output[t]).includes(i.id))
+            
 
         }
         //console.log
         let steps = book[r].steps.bakingSteps
         let allSteps = ``
-        console.log(arr)
         
         
         if(ui == resources.length) {
@@ -184,7 +183,9 @@ function Book() {
         
         <div class="row">
             <div id="filterW">
-                <input id="filter" list="filterO" placeholder="select category.."></input>    
+            <div class="panel panel-default">
+                <div class="panel-body"><input id="filter" list="filterO" placeholder="select category.."></input>  </div>
+            </div>                  
                 <datalist id="filterO">                
                 </datalist> 
             </div>

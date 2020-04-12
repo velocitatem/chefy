@@ -7,6 +7,7 @@ import Book from './Elements/Book'
 import Header from './Elements/Header'
 import Summ from './Elements/cookbook'
 import Abt from './Elements/About'
+import Foot from './Elements/Footer'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
@@ -33,6 +34,7 @@ ReactDOM.render(
       </main>
     </div>
   </Router>
+  <Foot></Foot>
 </body>,
   document.getElementById('root')
 );
