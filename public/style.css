@@ -13,7 +13,8 @@
     border-color: burlywood;
     border-top: none;
     border-bottom: none;
-    font-size: larger;
+    font-size: x-large;    
+    padding-left: 0.5cm;
 }
 #foodAltIMG {
     width: 100%;
@@ -52,6 +53,6 @@
 #bnr {
     width: 100%;
 }
-#version {
-    text-align: right;
+#itemCB {
+width: 10cm;
 }

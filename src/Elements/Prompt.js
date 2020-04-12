@@ -29,7 +29,7 @@ console.log(allResources)
 
 for (var item in allResources) {
     let code = `
-    <div><input id="${allResources[item]}-item" name="item" value="${allResources[item]}" type="checkbox"></input> <label id='lbit' for="${allResources[item]}-item"> ${allResources[item]}</label></div>
+    <div class="itemCBC"><input id="${allResources[item]}-item" name="item" class="itemCB" value="${allResources[item]}" type="checkbox"></input> <label id='lbit' for="${allResources[item]}-item"> ${allResources[item]}</label></div>
     `
     console.log()
     $("#opts").append(code)
@@ -90,7 +90,7 @@ function Prompt() {
             <div class="wrapper">
             <div class="row">
                 <div class="col-sm-4">
-                <h2>Select What you have</h2>
+                <h2 id="select">Select What you have</h2>
                 </div>
                     <div class="col-sm-8">
                     <center>

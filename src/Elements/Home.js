@@ -61,7 +61,7 @@ function Home() {
                 </div>
                 <div class="col-sm-6">
                     <h3>
-                        Open your fridge and select what you have <a href="/select">HERE</a>
+                        Open your fridge and select what you have <a href="/select#select">HERE</a>
                     </h3>
                 </div>
             </div>      
