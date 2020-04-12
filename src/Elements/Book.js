@@ -77,16 +77,20 @@ $(document).ready(function(){
         for (var t in output) {
             if (resources.includes(output[t])) {
                 ui+=1
+
             }
             else if (resources.includes(output[t]) == false) {
                 missing+=1
             }
+            var arr = resources.filter(i => (output[t]).includes(i.id))
+
         }
         //console.log
         let steps = book[r].steps.bakingSteps
         let allSteps = ``
+        console.log(arr)
         
-
+        
         if(ui == resources.length) {
             match(steps, allSteps, book, r)
         }
@@ -136,6 +140,8 @@ $(document).ready(function(){
         else {                        
             ERRnotFound()
         }
+
+        
  
     }
     if (notFound == found+notFound) {

@@ -6,6 +6,7 @@ import Home from './Elements/Home'
 import Book from './Elements/Book'
 import Header from './Elements/Header'
 import Summ from './Elements/cookbook'
+import Abt from './Elements/About'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
@@ -26,6 +27,8 @@ ReactDOM.render(
         <Route path="/select" component={Prompt} />
         <Route path="/browse" component={Book} />
         <Route path="/book" component={Summ} />
+        <Route path="/about" component={Abt} />
+
 
       </main>
     </div>
