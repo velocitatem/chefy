@@ -66,6 +66,7 @@ $(document).ready(function(){
         let resources = book[r].resources
         let ui = 0
         let missing = 0
+        let missingI= []
         for (var t in output) {
             if (resources.includes(output[t])) {
                 ui+=1
@@ -81,7 +82,7 @@ $(document).ready(function(){
         if(ui == resources.length) {
             match(steps, allSteps, book, r)
         }
-        else if (ui >= (resources.length*0.8 )) {
+        else if (ui >= (resources.length*0.5 )) {
             for (var s in steps) {
                 allSteps += `
                 <h3># ${s}: </h3> ${steps[s]}

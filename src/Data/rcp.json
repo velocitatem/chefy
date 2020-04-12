@@ -1,7 +1,7 @@
 [{
     "0": {
         "name": "Chicken & chorizo jambalaya",
-        "tags": ["Spanish"],
+        "tags": ["Spanish", "Gluten-free"],
         "resources": ["olive oil", "chicken breasts", "onion", "red pepper", "garlic", "chorizo", "Cajun seasoning", "long grain rice", "can plum tomato", "chicken stock"],
         "steps": {
             "ingredients": ["1 tbsp olive oil", "2 chicken breasts, chopped", "1 diced onion", "1 red pepper, thinly sliced", "2 garlic cloves, crushed", "75g chorizo, sliced", "1 tbsp Cajun seasoning", "250g long grain rice", "400g can plum tomato", "350ml chicken stock"],
@@ -16,7 +16,7 @@
     "1": {
         "name": "Red lentil, chickpea & chilli soup",
         "resources": ["cumin seeds", "chilli flakes", "olive oil", "red split lentils", "vegetable stock", "tomatoes", "chickpeas", "coriander"],
-        "tags": ["Soup", "Vegetarian"],
+        "tags": ["Soup", "Vegetarian", "Gluten-free"],
         "steps": {
             "ingredients": ["2 tsp cumin seeds", "large pinch chilli flakes", "1 tbsp olive oil", "1 red onion, chopped", "140g red split lentils", "850ml vegetable stock or water", " 400g can tomatoes, whole or chopped", "200g can chickpeas or ½ a can, drained and rinsed (freeze leftovers)", "small bunch coriander, roughly chopped (save a few leaves, to serve)", "4 tbsp 0% Greek yogurt, to serve"],
             "bakingSteps": {
@@ -48,7 +48,7 @@
     "3": {
         "name": "strawberries summer salad",
         "resources": ["sesame seeds", "poppy seeds", "white sugar", "olive oil", "white vinegar", "paprika", "Worcestershire sauce", "minced onion", "fresh spinach", "strawberries", "almonds"],
-        "tags": ["Salad", "Vegetarian"],    
+        "tags": ["Salad", "Vegetarian", "Gluten-free"],    
         "steps": {
             "ingredients": ["2 tablespoons sesame seeds","1 tablespoon poppy seeds", "1/2 cup white sugar","1/2 cup olive oil", "1/4 cup distilled white vinegar", "1/4 teaspoon paprika","1/4 teaspoon Worcestershire sauce", "1 tablespoon minced onion", "10 ounces fresh spinach - rinsed, dried and torn into bite-size pieces", "1 quart strawberries - cleaned, hulled and sliced", "1/4 cup almonds, blanched and slivered"],
             "bakingSteps": {
@@ -60,7 +60,7 @@
     "4": {
         "name": "Green Egg Salad",
         "resources": ["eggs", "avocado", "fresh spinach", "celery", "plain yogurt", "red pepper flakes", "garlic powder", "ground black pepper"],
-        "tags": ["Salad", "Vegetarian"],    
+        "tags": ["Salad", "Vegetarian", "Gluten-free"],    
         "steps": {
             "ingredients": ["7 hard-boiled eggs, peeled", "2 avocados - peeled, pitted, and mashed", "1 1/2 cups chopped spinach", "2 stalks celery, chopped (optional)", "1/2 cup plain yogurt", "1 pinch red pepper flakes, or to taste", "garlic powder, or to taste", "ground black pepper to taste"],
             "bakingSteps": {
@@ -87,6 +87,7 @@
     "6": {
         "name": "Granny's German Schnitzel Recipe",
         "resources": ["pork", "flour", "eggs", "lemon juice", "bread crumb", "vegetable oil", "lemon"],
+        "tags": ["German", "Meat"],    
         "steps": {
             "ingredients": ["4 boneless pork or veal chops", "1 teaspoon salt", "1/2 teaspoon black pepper", "1 cup all-purpose flour", "2 large eggs", "1 tablespoon lemon juice", "1 cup plain bread crumbs", "Vegetable oil for frying", "lemon slices"],
             "bakingSteps": {
@@ -99,5 +100,34 @@
                 "step7": "serve with hot lemon slices"
             }
         }
+    },
+    "7": {
+        "name": "Oatmeal with Mix-ins",
+        "resources": ["cinnamon", "oats", "milk"],
+        "tags": ["Easy", "Breakfast", "Fast", "Vegetarian", "Gluten-free"],    
+        "steps": {
+            "ingredients": ["oats", "milk", "cinnamon", "apple", "almonds", "dried cranberries"],
+            "bakingSteps": {
+                "step1" : " Bring water or milk to a boil in a small pot over high heat (keep an eye onthe pot as once milk boils, it can bubble right out of the pot). ",
+                "step2": " Stir in the oats and turn off the heat. For chewy texture, cover and leave for 5 minutes without stirring. For a creamier texture, stir for a minute then cover and leave for 4 minutes."
+            }
+        }
+    },
+    "8": {
+        "name": "Scrambled Eggs with Sweet Potato Hash",
+        "resources": ["sweet potato", "olive oil", "bell pepper", "onion", "eggs", "milk"],
+        "tags": ["Breakfast", "Gluten-free"],    
+        "steps": {
+            "ingredients": ["1 small sweet potato (about 1⁄3 lb.), peeled", "1 tsp. extra-virgin olive oil", "¾ cup chopped bell pepper", "¼ cup chopped onion or scallion", "1 egg", "1 tsp. milk", "1⁄16 tsp. kosher salt"],
+            "bakingSteps": {
+                "step1" : "Microwave the potato for 3 minutes then run under cold water to cool.",
+                "step2": "Cut the potato into cubes. ln a small, nonstick skillet, heat the oil over medium heat. Sauté the potato, peppers and onions until potatoes are tender, 3-5 minutes. ",
+                "step3": "In a bowl, whisk the eggs, milk and salt together.",
+                "step4": "Move the sweet potato, pepper and onion onto a plate. ",
+                "step5": "Pour the egg into the skillet and stir constantly with a wooden spoon or rubber spatula until the eggs are hot and clump together. "
+            }
+        }
     }
 }]
+
+
