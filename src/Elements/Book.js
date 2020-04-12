@@ -190,14 +190,15 @@ function Book() {
 }
 /*
 "1": {
-        "name": "",
-        "resources": [""],
-        "steps": {
-            "ingredients": [""],
-            "bakingSteps": {
-                "step1" : "",
-            }
+    "name": "",
+    "resources": [""],
+    "tags": [],
+    "steps": {
+        "ingredients": [""],
+        "bakingSteps": {
+            "step1" : "",
         }
     }
+}
 */
 export default Book;

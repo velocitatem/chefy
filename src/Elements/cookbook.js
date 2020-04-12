@@ -29,7 +29,8 @@ for(var r in data) {
     }
     let itemCode = `
     <div>
-    <center><h2>${data[r].name}</h2></center>
+    
+    <center>🍽<h2>${data[r].name}</h2></center>
     <b>Tags: </b>${data[r].tags} <br>
     <b>Ingredients: </b> 
     <ul>
