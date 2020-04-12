@@ -51,7 +51,7 @@ for(var r in data) {
     ${ing}
     </ul>
     ${steps}
-    <hr>
+    <hr id="bookSep">
     </div>
     `
     $("#Bookitems").append(itemCode)
@@ -83,11 +83,11 @@ function Header() {
     <div class="container">
     <div id="rcp">
         <h1>Cookbook</h1>
-        <input type="text" id="bookfilter" placeholder="filter" list="tagsF"></input>
+        <input type="text" id="bookfilter" placeholder="What are you looking for..." list="tagsF"></input>
         <datalist id="tagsF">
 
         </datalist>
-        <hr></hr>
+        <hr id="bookSep"></hr>
         <div id="Bookitems">
 
         </div>
