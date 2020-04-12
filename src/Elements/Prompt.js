@@ -29,7 +29,7 @@ console.log(allResources)
 
 for (var item in allResources) {
     let code = `
-    <div><input id="item" name="item" value="${allResources[item]}" type="checkbox"></input> <label> ${allResources[item]}</label></div>
+    <div><input id="${allResources[item]}-item" name="item" value="${allResources[item]}" type="checkbox"></input> <label for="${allResources[item]}-item"> ${allResources[item]}</label></div>
     `
     console.log()
     $("#opts").append(code)

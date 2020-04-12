@@ -11,8 +11,11 @@ function Header() {
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <a class="navbar-brand" href="/">Chefy</a>
           <li class="nav-item">
-            <a class="nav-link" href="/select" id="navI">Create</a>            
+            <a class="nav-link" href="/select" id="navI"><b>Make me a dish</b></a>            
           </li>              
+          <li class="nav-item">
+            <a class="nav-link" href="/book" id="navI">Cookbook</a>            
+          </li>    
           <li class="nav-item">
             <a class="nav-link" href="/about" id="navI">About</a>            
           </li>    
