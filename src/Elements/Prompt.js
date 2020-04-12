@@ -3,9 +3,16 @@
  */
 import React from 'react';
 import $ from  'jquery';
-import data from '../Data/rcp.json'
+// import data from '../Data/rcp.json'
+
+
+
+
 var allResources = [ ]
-$(document).ready(function(){
+var data
+
+
+function dtW() {
     let rcp = data[0]
 for (var t in rcp) {
     let Cresources = rcp[t].resources
@@ -30,6 +37,24 @@ for (var item in allResources) {
 var btn = ``
 $("#btn").append(btn)
 
+
+}
+
+$(document).ready(function(){
+    //api fetch
+    fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
+    .then((response) => {
+        return response.json();
+    })
+    .then((dat) => {
+        console.log(dat)
+        data = dat
+        console.log(data)
+        dtW()
+    })
+    .catch(err => {
+        console.log(err);
+    })
 
 })
 

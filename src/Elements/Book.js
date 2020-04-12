@@ -1,7 +1,14 @@
 import React from 'react';
 import $ from  'jquery';
-import rcp from '../Data/rcp.json'
-var filterTags = []
+var rcp
+fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
+.then((response) => {
+    return response.json();
+})
+.then((data) => {
+    console.log(data)
+    rcp = data
+    var filterTags = []
 var output
 var book = rcp[0]
 let found = 0
@@ -82,7 +89,7 @@ $(document).ready(function(){
         if(ui == resources.length) {
             match(steps, allSteps, book, r)
         }
-        else if (ui >= (resources.length*0.5 )) {
+        else if (ui >= (resources.length*0.7 )) {
             for (var s in steps) {
                 allSteps += `
                 <h3># ${s}: </h3> ${steps[s]}
@@ -147,6 +154,10 @@ $(document).ready(function(){
         `)
     }
 
+})
+})
+.catch(err => {
+    console.log(err);    
 })
 
 
