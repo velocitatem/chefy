@@ -64,9 +64,7 @@ for (var f in tagsARR) {
     $("#tagsF").append(`
     <option value="${tagsARR[f]}">${tagsARR[f]}</options>
     `)
-}
-}
-
+}}
 $(document).ready(function(){
     $("#bookfilter").on("keyup", function() {
       var value = $(this).val().toLowerCase();

@@ -28,7 +28,7 @@ console.log(notFound)
 if (notFound == dataLength){
 $("#items").html(`
 <center>
-<h2>Sorry... We couldn't find anything yet 🙁
+<h2>Sorry... We couldn't find anything yet 🙁</h2>
 </center>
 `)
 }
