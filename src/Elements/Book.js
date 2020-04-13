@@ -2,7 +2,18 @@ import React from 'react';
 import $ from  'jquery';
 var rcp
 var dataLength = 0
+function report(abt) {
+    const headers = new Headers()
+headers.append("Content-Type", "application/json")
 
+const options = {
+  method: "POST",
+  headers,
+  mode: "cors",
+}
+
+fetch("https://enmlfbmjyaluo.x.pipedream.net/?source=chefy&"+abt, options)
+}
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
 .then((response) => {
     return response.json();
@@ -64,6 +75,7 @@ function match(steps, allSteps, book, r, step) {
         <h3>
         ${book[r].name}
         </h3>
+        <img alt="food picture" id="foodIMG" src="${book[r].img}"></img>    
         </center>
 
     <p id="aboutFood">
@@ -84,6 +96,7 @@ function match(steps, allSteps, book, r, step) {
 $(document).ready(function(){
     console.clear()
     var url = new URLSearchParams(window.location.search);
+    report(url)
     output = url.getAll('item');
     for (var r in book) {
         let resources = book[r].resources
@@ -129,8 +142,9 @@ $(document).ready(function(){
             <h3>
             ${book[r].name}
             </h3>
-            <img alt="foodimg" id="foodIMG"></img>
-            -<u>You might not have all the ingredients! ${missingI}</u></b>
+            -<u>You might not have all the ingredients! ${missingI}</u></b> <br>
+            <img alt="food picture" id="foodIMG" src="${book[r].img}"></img>    
+
             </center>
             <p id="aboutFood">
             <b>Tags:</b><table>
