@@ -1,17 +1,17 @@
 import React from 'react';
 import $ from  'jquery';
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
-.then((response) => {
-    return response.json();
-})
-.then((data) => {
-    console.log(data)
-    proc(data)
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        console.log(data)
+        proc(data)
 
-})
-.catch(err => {
-    console.log(err);
-})
+    })
+    .catch(err => {
+        console.log(err);
+    })
 function proc(data) {
 data = data[0]
 let tagsARR = []
@@ -32,13 +32,11 @@ for(var r in data) {
     
     for (var t in data[r].tags) {
         Alltags += `<td>#${data[r].tags[t]}  </td>`
-        if(tagsARR.includes(data[r].tags[t])) {
+        if (tagsARR.includes(data[r].tags[t])) {
 
-        }
-        else {
+        } else {
             tagsARR.push(data[r].tags[t])
-        }    
-        
+        }
     }
     console.log(tagsARR)
 
@@ -56,9 +54,6 @@ for(var r in data) {
     </div>
     `
     $("#Bookitems").append(itemCode)
-
-
-
 }
 for (var f in tagsARR) {
     console.log(tagsARR[f])

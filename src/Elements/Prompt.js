@@ -5,37 +5,33 @@ import React from 'react';
 import $ from  'jquery';
 // import data from '../Data/rcp.json'
 
-
-
-
 var allResources = [ ]
 var data
 
 
 function dtW() {
     let rcp = data[0]
-for (var t in rcp) {
-    let Cresources = rcp[t].resources
-    for (var i in Cresources) {
-        console.log(Cresources[i])
-        if(allResources.includes(Cresources[i])) {}
-        else {
-            allResources.push(Cresources[i])
+    for (var t in rcp) {
+        let Cresources = rcp[t].resources
+        for (var i in Cresources) {
+            console.log(Cresources[i])
+            if (allResources.includes(Cresources[i])) {} else {
+                allResources.push(Cresources[i])
+            }
+            //
         }
-        //
     }
-}
 console.log(allResources)
 
-for (var item in allResources) {
-    let code = `
+    for (var item in allResources) {
+        let code = `
     <div class="itemCBC"><input id="${allResources[item]}-item" name="item" class="itemCB" value="${allResources[item]}" type="checkbox"></input> <label id='lbit' for="${allResources[item]}-item"> ${allResources[item]}</label></div>
     `
-    console.log()
-    $("#opts").append(code)
-}
-var btn = ``
-$("#btn").append(btn)
+        console.log()
+        $("#opts").append(code)
+    }
+    var btn = ``
+    $("#btn").append(btn)
 
 
 }
