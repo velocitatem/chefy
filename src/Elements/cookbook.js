@@ -45,7 +45,8 @@ for(var r in data) {
     let itemCode = `
     <div id="bookitem">    
     <center>🍽<h2>${data[r].name}</h2></center>
-    <p><b>Tags: </b>${Alltags}</p> <br>
+    <p><b>Tags: </b>${Alltags}</p>
+    <a href="/share/?item=${data[r].name}">Share/Enlarge</a> <br>
     <b>Ingredients: </b> 
     <ul>
     ${ing}

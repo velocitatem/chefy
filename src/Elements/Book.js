@@ -56,7 +56,7 @@ function match(steps, allSteps, book, r, step) {
         }
     }        
     $("#items").append(`
-    <p>
+    <p>    
     <div class="row">
     <div class="col-sm-12">
 
@@ -71,6 +71,7 @@ function match(steps, allSteps, book, r, step) {
     ${tags}
     </tags> <br>
     <b>ingredients:</b> ${book[r].steps.ingredients} <br>
+    <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> <br>
     ${allSteps}
     </p>
     </div>

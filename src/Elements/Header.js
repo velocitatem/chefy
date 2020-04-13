@@ -1,6 +1,8 @@
 import React from 'react';
 import $ from  'jquery';
-
+function print() {
+  window.print()
+}
 function Header() {
   return (
 
@@ -22,6 +24,9 @@ function Header() {
           <li class="nav-item">
             <a class="nav-link" href="/about" id="navI">About</a>            
           </li>          
+          <li class="nav-item"> 
+          <button class="nav-link" id="printButton" value = "Print page" onClick = {print}>Print Page</button>
+          </li>
         </ul>
       </div>        
       </nav>

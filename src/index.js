@@ -9,6 +9,7 @@ import Summ from './Elements/cookbook'
 import Abt from './Elements/About'
 import Foot from './Elements/Footer'
 import Contribute from './Elements/Contribute'
+import Share from './Elements/Share'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
@@ -31,6 +32,8 @@ ReactDOM.render(
         <Route path="/book" component={Summ} />
         <Route path="/about" component={Abt} />
         <Route path="/contribute" component={Contribute} />
+        <Route path="/share" component={Share} />
+
 
       </main>
     </div>
