@@ -76,7 +76,7 @@ function Header() {
 <div className="App">
     <div class="container">
     <div id="rcp">
-        <h1>Cookbook</h1>
+        <h1 id="cb">Cookbook</h1>
         <input type="text" id="bookfilter" placeholder="What are you looking for..." list="tagsF"></input>
         <datalist id="tagsF">
 

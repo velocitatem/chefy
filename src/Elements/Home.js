@@ -19,7 +19,7 @@ function Home() {
            <div class="col-sm-4">
                 <center>
                     <img id="icon" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.istockphoto.com%2Fillustrations%2Fchili-pot-graphic-illustration-id167588419%3Fk%3D6%26m%3D167588419%26s%3D170667a%26w%3D0%26h%3DSlFe1moi5BE3GdXW0whF6MDhHTcG4751_TroGK4dWp0%3D&f=1&nofb=1"></img>
-                    <h3>Don't know what to cook with what you have?</h3>
+                    <h3 id="tt">Don't know what to cook with what you have?</h3>
                 </center>
             </div>
             <div class="col-sm-4">
@@ -41,7 +41,7 @@ function Home() {
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2014%2F04%2F03%2F09%2F57%2Fclub-sandwich-309442_640.png&f=1&nofb=1" id='bnr'></img>
                </div>
                <div class="col-sm-7">
-                    <h2>
+                    <h2 >
                         Use Chefy!
                     </h2>
                     <ol>
