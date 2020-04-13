@@ -17,6 +17,9 @@ function Header() {
             <a class="nav-link" href="/book" id="navI">Cookbook</a>            
           </li>    
           <li class="nav-item">
+            <a class="nav-link" href="/contribute" id="navI">Contribute</a>            
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/about" id="navI">About</a>            
           </li>          
         </ul>

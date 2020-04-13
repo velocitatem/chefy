@@ -1,6 +1,8 @@
 import React from 'react';
 import $ from  'jquery';
 var rcp
+var dataLength = 0
+
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
 .then((response) => {
     return response.json();
@@ -8,6 +10,9 @@ fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
 .then((data) => {
     console.log(data)
     rcp = data
+    for (var dt in rcp[0]) {
+        dataLength++
+    }
     var filterTags = []
 var output
 var book = rcp[0]
@@ -18,10 +23,12 @@ console.log(rcp)
 function ERRnotFound() {
 notFound+=1
 console.log(notFound)
-if (notFound == rcp[0].length){
+
+
+if (notFound == dataLength){
 $("#items").html(`
 <center>
-<h2>Sorry... We couldn't find anything yet 🙁
+<h2>Sorry... We couldn't find anything yet 🙁</h2>
 </center>
 `)
 }
@@ -192,6 +199,7 @@ function Book() {
 "1": {
         "name": "",
         "resources": [""],
+        "tags": [],
         "steps": {
             "ingredients": [""],
             "bakingSteps": {

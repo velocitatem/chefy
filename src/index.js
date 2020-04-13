@@ -8,6 +8,7 @@ import Header from './Elements/Header'
 import Summ from './Elements/cookbook'
 import Abt from './Elements/About'
 import Foot from './Elements/Footer'
+import Contribute from './Elements/Contribute'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
@@ -29,7 +30,7 @@ ReactDOM.render(
         <Route path="/browse" component={Book} />
         <Route path="/book" component={Summ} />
         <Route path="/about" component={Abt} />
-
+        <Route path="/contribute" component={Contribute} />
 
       </main>
     </div>

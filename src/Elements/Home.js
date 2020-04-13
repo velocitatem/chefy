@@ -6,7 +6,11 @@ function Home() {
     <div class="container">
         <div>
         
-           
+            <div class="row">
+                <div class="ttimg">
+
+                </div>
+            </div>   
            <div class="row">
            <div class="col-sm-4">
                 <center>
