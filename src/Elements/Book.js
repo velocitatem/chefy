@@ -138,6 +138,8 @@ $(document).ready(function(){
             </tr>
             </table> <br>
             <b>ingredients:</b> ${book[r].steps.ingredients} <br>
+            <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> <br>
+
             ${allSteps}
             </p>
             </div>
