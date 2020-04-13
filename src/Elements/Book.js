@@ -129,6 +129,7 @@ $(document).ready(function(){
             <h3>
             ${book[r].name}
             </h3>
+            <img alt="foodimg" id="foodIMG"></img>
             -<u>You might not have all the ingredients! ${missingI}</u></b>
             </center>
             <p id="aboutFood">
@@ -139,7 +140,6 @@ $(document).ready(function(){
             </table> <br>
             <b>ingredients:</b> ${book[r].steps.ingredients} <br>
             <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> <br>
-
             ${allSteps}
             </p>
             </div>

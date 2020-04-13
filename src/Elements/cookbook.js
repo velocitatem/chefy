@@ -43,6 +43,7 @@ for(var r in data) {
     let itemCode = `
     <div id="bookitem">    
     <center>🍽<h2>${data[r].name}</h2></center>
+    <img alt="food picture" id="foodIMG" src="${data[r].img}"></img>
     <p><b>Tags: </b>${Alltags}</p>
     <a href="/share/?item=${data[r].name}">Share/Enlarge</a> <br>
     <b>Ingredients: </b> 
