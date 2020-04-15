@@ -1,0 +1,52 @@
+Date : 2020-04-13 23:58:48
+Directory : c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy
+Total : 20 files,  1550 codes, 68 comments, 186 blanks, all 1804 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         13 |        822 |         68 |        112 |      1,002 |
+| JSON       |          3 |        535 |          0 |         33 |        568 |
+| HTML       |          1 |         90 |          0 |          3 |         93 |
+| CSS        |          2 |         66 |          0 |          6 |         72 |
+| Markdown   |          1 |         37 |          0 |         32 |         69 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                         | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                            |         20 |      1,550 |         68 |        186 |      1,804 |
+| public                                                                                       |          3 |        170 |          0 |          7 |        177 |
+| src                                                                                          |         15 |      1,308 |         68 |        146 |      1,522 |
+| src\Data                                                                                     |          1 |        475 |          0 |         31 |        506 |
+| src\Elements                                                                                 |          9 |        673 |         33 |         89 |        795 |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                     | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\README.md                  | Markdown   |         37 |          0 |         32 |         69 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\package.json               | JSON       |         35 |          0 |          1 |         36 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\public\index.html          | HTML       |         90 |          0 |          3 |         93 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\public\manifest.json       | JSON       |         25 |          0 |          1 |         26 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\public\style.css           | CSS        |         55 |          0 |          3 |         58 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\App.js                 | JavaScript |          9 |          0 |          3 |         12 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Data\rcp.json          | JSON       |        475 |          0 |         31 |        506 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\About.js      | JavaScript |         29 |          0 |          5 |         34 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Book.js       | JavaScript |        196 |         14 |         19 |        229 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Contribute.js | JavaScript |         40 |          0 |         13 |         53 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Footer.js     | JavaScript |         13 |         12 |          1 |         26 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Header.js     | JavaScript |         36 |          0 |          4 |         40 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Home.js       | JavaScript |         73 |          0 |          9 |         82 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Prompt.js     | JavaScript |         87 |          7 |         20 |        114 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Share.js      | JavaScript |        113 |          0 |          7 |        120 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\cookbook.js   | JavaScript |         86 |          0 |         11 |         97 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\index.css              | CSS        |         11 |          0 |          3 |         14 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\index.js               | JavaScript |         41 |          0 |          6 |         47 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\serviceWorker.js       | JavaScript |         98 |         31 |         13 |        142 |
+| c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\setupTests.js          | JavaScript |          1 |          4 |          1 |          6 |
+| Total                                                                                        |            |      1,550 |         68 |        186 |      1,804 |
++----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

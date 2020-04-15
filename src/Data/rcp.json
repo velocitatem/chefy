@@ -2,9 +2,10 @@
     "0": {
         "name": "Chicken & chorizo jambalaya",
         "tags": ["Spanish", "Gluten-free"],
-        "resources": ["olive oil", "chicken breasts", "onion", "red pepper", "garlic", "chorizo", "Cajun seasoning", "long grain rice", "can plum tomato", "chicken stock"],
+        "resources": ["olive oil", "chicken breasts", "onion", "red pepper", "garlic", "chorizo", "Cajun seasoning", "long grain rice", "tomatoes", "chicken stock"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F93546-d-c.ooyala.com%2Fcontent%2Fimages%2F1204%2F280030_1280x720.jpg&f=1&nofb=1",
         "steps": {
-            "ingredients": ["1 tbsp olive oil", "2 chicken breasts, chopped", "1 diced onion", "1 red pepper, thinly sliced", "2 garlic cloves, crushed", "75g chorizo, sliced", "1 tbsp Cajun seasoning", "250g long grain rice", "400g can plum tomato", "350ml chicken stock"],
+            "ingredients": ["1 tbsp olive oil", "2 chicken breasts, chopped", "1 diced onion", "1 red pepper, thinly sliced", "2 garlic cloves, crushed", "75g chorizo, sliced", "1 tbsp Cajun seasoning", "250g long grain rice", "400g tomato", "350ml chicken stock"],
             "bakingSteps": {
                 "step1" : "Heat 1 tbsp olive oil in a large frying pan with a lid and brown 2 chopped chicken breasts for 5-8 mins until golden.",
                 "step2" : "Remove and set aside. Tip in the 1 diced onion and cook for 3-4 mins until soft.",
@@ -16,9 +17,10 @@
     "1": {
         "name": "Red lentil, chickpea & chilli soup",
         "resources": ["cumin seeds", "chilli flakes", "olive oil", "red split lentils", "vegetable stock", "tomatoes", "chickpeas", "coriander"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sharonsnowdon.com%2Fwp-content%2Fuploads%2F2016%2F04%2FRed-lentil-chickpea-chilli-soup-e1459701247778.jpg&f=1&nofb=1",
         "tags": ["Soup", "Vegetarian", "Gluten-free"],
         "steps": {
-            "ingredients": ["2 tsp cumin seeds", "large pinch chilli flakes", "1 tbsp olive oil", "1 red onion, chopped", "140g red split lentils", "850ml vegetable stock or water", " 400g can tomatoes, whole or chopped", "200g can chickpeas or ½ a can, drained and rinsed (freeze leftovers)", "small bunch coriander, roughly chopped (save a few leaves, to serve)", "4 tbsp 0% Greek yogurt, to serve"],
+            "ingredients": ["2 tsp cumin seeds", "large pinch chilli flakes", "1 tbsp olive oil", "1 red onion, chopped", "140g red split lentils", "850ml vegetable stock or water", " 400g tomatoes, whole or chopped", "200g can chickpeas or ½ a can, drained and rinsed (freeze leftovers)", "small bunch coriander, roughly chopped (save a few leaves, to serve)", "4 tbsp 0% Greek yogurt, to serve"],
             "bakingSteps": {
                 "step1" : "Heat a large saucepan and dry-fry 2 tsp cumin seeds and a large pinch of chilli flakes for 1 min, or until they start to jump around the pan and release their aromas.",
                 "step2" : "Add 1 tbsp olive oil and 1 chopped red onion, and cook for 5 mins. ",
@@ -31,8 +33,9 @@
 
     "2": {
         "name": "Chocolate brownie cake",
-        "resources": ["butter", "caster sugar", "light brown sugar", "chocolate", "golden syrup", "eggs", "vanilla extract", "plain flour", "baking powder", "cocoa powder"],
+        "resources": ["butter", "caster sugar", "brown sugar", "chocolate", "golden syrup", "eggs", "vanilla extract", "plain flour", "baking powder", "cocoa powder"],
         "tags": ["Dessert", "Cake"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FzA6Xf-YUadk%2Fmaxresdefault.jpg&f=1&nofb=1",
         "steps": {
             "ingredients": ["100g butter", "175g caster sugar", "75g light brown or muscovado sugar", "125g chocolate(plain or milk)", "1 tbsp golden syrup", "2 eggs", "1 tsp vanilla extract /essence", "100g plain flour", "½ tsp baking powder", "2 tbsp cocoa powder"],
             "bakingSteps": {
@@ -47,8 +50,10 @@
 
     "3": {
         "name": "strawberries summer salad",
-        "resources": ["sesame seeds", "poppy seeds", "white sugar", "olive oil", "white vinegar", "paprika", "Worcestershire sauce", "minced onion", "fresh spinach", "strawberries", "almonds"],
+        "resources": ["sesame seeds", "poppy seeds", "sugar", "olive oil", "white vinegar", "paprika", "Worcestershire sauce", "onion", "fresh spinach", "strawberries", "almonds"],
         "tags": ["Salad", "Vegetarian", "Gluten-free"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F--vPzTh8WqQo%2FUCNAO1aeqgI%2FAAAAAAAACLU%2F0R7ta21v4V8%2Fw1200-h630-p-k-nu%2FIMG_4394.jpg&f=1&nofb=1",
+
         "steps": {
             "ingredients": ["2 tablespoons sesame seeds","1 tablespoon poppy seeds", "1/2 cup white sugar","1/2 cup olive oil", "1/4 cup distilled white vinegar", "1/4 teaspoon paprika","1/4 teaspoon Worcestershire sauce", "1 tablespoon minced onion", "10 ounces fresh spinach - rinsed, dried and torn into bite-size pieces", "1 quart strawberries - cleaned, hulled and sliced", "1/4 cup almonds, blanched and slivered"],
             "bakingSteps": {
@@ -61,6 +66,8 @@
         "name": "Green Egg Salad",
         "resources": ["eggs", "avocado", "fresh spinach", "celery", "plain yogurt", "red pepper flakes", "garlic powder", "ground black pepper"],
         "tags": ["Salad", "Vegetarian", "Gluten-free"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.amazonaws.com%2Fstudio-me%2Fsystem%2Fphotos%2Fphotos%2F000%2F816%2F452%2Flarge%2F28152953_l.jpg%3F1429804765&f=1&nofb=1",
+
         "steps": {
             "ingredients": ["7 hard-boiled eggs, peeled", "2 avocados - peeled, pitted, and mashed", "1 1/2 cups chopped spinach", "2 stalks celery, chopped (optional)", "1/2 cup plain yogurt", "1 pinch red pepper flakes, or to taste", "garlic powder, or to taste", "ground black pepper to taste"],
             "bakingSteps": {
@@ -72,6 +79,8 @@
         "name": "Simple Pasta",
         "resources": ["salt", "pasta", "olive oil"],
         "tags": ["Italian", "Vegetarian"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FnwI40GAqatw%2Fmaxresdefault.jpg&f=1&nofb=1",
+
         "steps": {
             "ingredients": ["a pinch of salt", "desired amount of pasta", "1 tbsp olive oil"],
             "bakingSteps": {
@@ -88,6 +97,8 @@
         "name": "Granny's German Schnitzel Recipe",
         "resources": ["pork", "flour", "eggs", "lemon juice", "bread crumb", "vegetable oil", "lemon"],
         "tags": ["German", "Meat"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dessertfortwo.com%2Fwp-content%2Fuploads%2F2014%2F12%2FSchnitzel-2.jpg&f=1&nofb=1",
+
         "steps": {
             "ingredients": ["4 boneless pork or veal chops", "1 teaspoon salt", "1/2 teaspoon black pepper", "1 cup all-purpose flour", "2 large eggs", "1 tablespoon lemon juice", "1 cup plain bread crumbs", "Vegetable oil for frying", "lemon slices"],
             "bakingSteps": {
@@ -105,6 +116,8 @@
         "name": "Oatmeal with Mix-ins",
         "resources": ["cinnamon", "oats", "milk"],
         "tags": ["Easy", "Breakfast", "Fast", "Vegetarian", "Gluten-free"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-73sp4B-XUiY%2FTwmc40S4D9I%2FAAAAAAAAKdQ%2FrqF-HDY5b70%2Fs1600%2Foatmeal%2Bwith%2Braisons.jpg&f=1&nofb=1",
+
         "steps": {
             "ingredients": ["oats", "milk", "cinnamon", "apple", "almonds", "dried cranberries"],
             "bakingSteps": {
@@ -117,6 +130,8 @@
         "name": "Scrambled Eggs with Sweet Potato Hash",
         "resources": ["sweet potato", "olive oil", "bell pepper", "onion", "eggs", "milk"],
         "tags": ["Breakfast", "Gluten-free"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.eatingrules.com%2Fwp-content%2Fuploads%2F2013%2F10%2Fscrambled-eggs-sweet-potato-hash.jpg&f=1&nofb=1",
+
         "steps": {
             "ingredients": ["1 small sweet potato (about 1⁄3 lb.), peeled", "1 tsp. extra-virgin olive oil", "¾ cup chopped bell pepper", "¼ cup chopped onion or scallion", "1 egg", "1 tsp. milk", "1⁄16 tsp. kosher salt"],
             "bakingSteps": {
@@ -127,7 +142,365 @@
                 "step5": "Pour the egg into the skillet and stir constantly with a wooden spoon or rubber spatula until the eggs are hot and clump together. "
             }
         }
+    },
+    "9":{
+        "name": "Roasted Sweet Potato & Scallion Salad",
+        "resources": ["sweet potato", "scallions", "salad", "canola oil", "soy sauce", "balsamic vinegar", "sugar", "roasted pumpkin seeds"],
+        "tags": ["Salad", "Gluten-free", "Vegetarian"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-_BD4psLJeHk%2FU5z1Cm0njCI%2FAAAAAAAABOk%2FAyDeF0ow3Kg%2Fs1600%2Froasted%2Bsweet%2Bpotatoes%2Bwith%2Bbacon%2Band%2Bscallions.PNG&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 lb. sweet potatoes, peeled", "2 bunches scallions, white and pale-green parts cut into ½-inch pieces", "2 Tbs. canola oil, divided", "1 Tbs. soy sauce", "1 Tbs. balsamic vinegar", "1 tsp. brown sugar", "8 cups loosley packed salad greens (6-8 oz.)", "¼ cup roasted pumpkin seeds"],
+            "bakingSteps": {
+                "step1" : "Preheat the oven to 450°F/ 232°C",
+                "step2": "Cut the sweet potatoes into ⅓-inch-thick sticks.",
+                "step3": "On a rimmed baking sheet, toss the sweet potatoes and scallions with 1 Tbs. of the oil. Roast until the sweet potatoes are tender, 10-12 minutes. ", 
+                "step4": "Remove and allow to cool. ",
+                "step5": "In a large bowl, whisk the soy sauce, vinegar, and sugar with the remaining 1 Tbs. of oil. ", 
+                "step6": "Toss the salad greens with the dressing. Top with the sweet potatoes, scallions, and pumpkin seeds"
+            }
+        }
+    },
+    "10": {
+        "name": "Chips and Guacamole",
+        "resources": ["chips", "avocado", "tomatoes", "limes", "red onion"],
+        "tags": ["Snack", "Gluten-free", "Vegetarian", "Mexican", "Fast"],    
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Floseyoself.files.wordpress.com%2F2014%2F10%2Fchips-and-guacamole.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["2 avocados", "1 tomato", "1/4 cup red onion (chopped)", "salt", "3 limes", "anything spicy"],
+            "bakingSteps": {
+                "step1" : "Peel and pit avocados and finely chop onion and add to a bowl. Use a fork to mush up all the avocado.", 
+                "step2": "Wash and cut the tomato in half and remove all the seeds and liquid, then dice the flesh only and add to the bowl.",
+                "step3": "Wash and spin dry fresh cilantro and finely chop until you have about 1/4 cup chopped cilantro and add to the bowl.",
+                "step4": "Season with sea salt and lime juice, stir everything well together and serve!",
+                "step5": "For spicy guacamole add finely chopped chili, too!"
+            }
+        }
+    },
+    "11": {
+        "name": "Cheesy Chicken Nachos",
+        "resources": ["tortilla chips", "chicken breasts", "Cheddar cheese", "salsa", "radishes", "cotija cheese", "avocado", "salad"],
+        "tags": ["Snack","Fast"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-image.realsimple.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmarquee_large_2x%2Fpublic%2F1557410625%2Fchicken-nachos-0619din.jpg%3Fitok%3DomoB0AdP&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 11-oz. pkg. tortilla chips", "2 cups shredded rotisserie chicken", "6 ounces sharp Cheddar cheese, shredded (about 1½ cups)", "1 cup prepared pico de gallo or salsa", "2 radishes, thinly sliced", "2 ounces cotija cheese, crumbled (about ½ cup)", "1 ripe avocado, sliced", "½ cup loosely packed fresh cilantro leaves"],
+            "bakingSteps": {
+                "step1" : "Preheat oven to 400°F. Line a baking sheet with aluminum foil.",
+                "step2" : "Spread chips evenly across baking sheet and top with chicken and Cheddar. Bake until cheese is melted, about 10 minutes.",
+                "step3": "Top nachos with pico de gallo, radishes, cotija, avocado, cilantro, and jalapeño and hot sauce, if using. Serve immediately."
+            }
+        }
+    },
+    "12": {
+        "name": "Simple pancakes",
+        "resources": ["plain flour", "eggs", "milk", "vegetable oil"],
+        "tags": ["Vegetarian","Fast", "Breakfast", "Dessert"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFLd00Bx4tOk%2Fmaxresdefault.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["100g plain flour", "2 large eggs", "300ml milk", "1 tbsp sunflower or vegetable oil, plus a little extra for frying", "lemon wedges, to serve (optional)", "caster sugar, to serve (optional)"],
+            "bakingSteps": {
+                "step1" : "Put 100g plain flour, 2 large eggs, 300ml milk, 1 tbsp sunflower or vegetable oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter.",
+                "step2" : "Set aside for 30 mins to rest if you have time, or start cooking straight away.",
+                "step3" : "Set a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper.",
+                "step4": "When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go.",
+                "step5" : "Serve with lemon wedges and caster sugar, or your favourite filling. Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months."
+                }
+        }
+    },
+    "13": {
+        "name": "Easy chicken fajitas",
+        "resources": ["chicken breasts", "red onion", "red pepper", "smoked paprika", "coriander", "cumin", "garlic", "olive oil", "limes", "tabasco", "tortillas", "salad", "salsa"],
+        "tags": ["Spanish"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsimple-nourished-living.com%2Fwp-content%2Fuploads%2F2016%2F05%2Feasy-chicken-fajitas-2-SP.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["2 large chicken breasts, finely sliced", "1 red onion, finely sliced", "1 red pepper, sliced", "1 heaped tbsp smoked paprika", "1 tbsp ground coriander", "pinch of ground cumin", "2 medium garlic cloves, crushed", "4 tbsp olive oil", "1 lime, juiced", "4-5 drops Tabasco", "6 medium tortillas", "bag mixed salad", "230g tub fresh salsa"],
+            "bakingSteps": {
+                "step1" : "Heat oven to 200C/180C fan/gas 6 and wrap 6 medium tortillas in foil.",
+                "step2" : "Mix 1 heaped tbsp smoked paprika, 1 tbsp ground coriander, a pinch of ground cumin, 2 crushed garlic cloves, 4 tbsp olive oil, the juice of 1 lime and 4-5 drops Tabasco together in a bowl with a big pinch each of salt and pepper.",
+                "step3" : "Stir 2 finely sliced chicken breasts, 1 finely sliced red onion, 1 sliced red pepper and 1 finely sliced red chilli, if using, into the marinade.",
+                "step4" : "Heat a griddle pan until smoking hot and add the chicken and marinade to the pan.",
+                "step5" : "Keep everything moving over a high heat for about 5 mins using tongs until you get a nice charred effect. If your griddle pan is small you may need to do this in two batches.",
+                "step6" : "To check the chicken is cooked, find the thickest part and tear in half – if any part is still raw cook until done.",
+                "step7" : "Put the tortillas in the oven to heat up and serve with the cooked chicken, a bag of mixed salad and one 230g tub of fresh salsa."
+
+            }
+        }
+    },
+    "14": {
+        "name": "Bolognese",
+        "resources": ["olive oil", "onion", "garlic", "celery", "carrot", "minced beef", "tomatoes", "basil", "Pecorino Romano cheese"],
+        "tags":["Italian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.telegraph.co.uk%2Fcontent%2Fdam%2Fnews%2F2016%2F10%2F10%2F110834886RestrictedSpagBogNEWS-xlarge_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["4 tbsps extra virgin olive oil", "1 medium onion, coarsely chopped", "2 garlic cloves, peeled, coarsely chopped", "1 celery stalk, coarsely chopped", "1 carrot, coarsely chopped", "500g minced beef", "1 (800g) tin crushed tomatoes", "Handful flat leaf Italian parsley, chiffonade", "8 fresh basil leaves, chiffonade", "Salt and freshly ground black pepper", "60g freshly grated Pecorino Romano cheese"],
+            "bakingSteps": {
+                "step1" : " Place the oil in a 6L pan, and heat over a medium-high heat. When it's almost smoking, add the onion and garlic and saute until the onions become very soft, about eight minutes. Add the celery and carrot and saute for five minutes.",
+                "step2" : "Raise the heat to high and add the minced beef. Saute, stirring frequently and breaking up any large lumps, and cook until the meat is no longer pink, about eight minutes. Add the tomatoes, parsley and basil and cook over a medium-low heat until the sauce thickens, about half an hour.",
+                "step3" : "Check for seasoning. When serving, garnish the bolognese sauce with grated Pecorino Romano cheese. Serve hot with pasta."
+            }
+        }
+    },
+    "15": {
+        "name": "NUTELLA BROWNIES",
+        "resources": ["Nutella", "eggs", "flour"],
+        "tags": ["Dessert", "Cake", "Fast", "Vegetarian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEPZ4ijtYFKk%2Fmaxresdefault.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1  1/4 cup Nutella", "2 large eggs", "1/2 cup all purpose flour"],
+            "bakingSteps": {
+                "step1" : "Preheat oven to 350°F. Grease a 9 inch x 9 inch metal baking pan. Add all ingredients into a large bowl and mix until batter is smooth. Pour into baking pan and smooth top with spatula.",
+                "step2" : "Bake for about 15 minutes until toothpick inserted comes out clean. Be careful not to bake too long otherwise brownies will dry out. Let brownies cool and set before cutting and serving."
+            }
+        }
+    },
+    "16": {
+        "name": "Cookie Dough Greek Yogurt",
+        "resources": ["greek yogurt", "peanut flour", "sugar", "vanilla extract"],
+        "tags":["Breakfast", "Dessert", "Snack", "Fast", "Vegetarian", "Gluten-free"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.singforyoursupperblog.com%2Fwp271%2Fwp-content%2Fuploads%2F2013%2F03%2Fcookie-dough-greek-yogurt-2.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 cup Greek yogurt", "2 tbs Peanut flour", "1 tbs Sweetener of choice", "1/2 tsp Vanilla extract", "1/4 tsp Almond extract (optional)", "1-2 tsp Chocolate chips (optional)"],
+            "bakingSteps": {
+                "step1" : "In a small-medium bowl, whisk together all of the ingredients until smooth. Refrigerate until ready to eat. Top with chocolate chips if desired. Enjoy!"
+            }
+        }
+    },
+    "17": {
+        "name": "Lemon pudding",
+        "resources": ["lemon", "sugar", "heavy cream"],
+        "tags": ["Dessert", "Fast", "Vegetarian", "Gluten-free"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdaisyt13.files.wordpress.com%2F2013%2F03%2Fmeyer-lemon-pudding-10.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["4 lemons, preferably organic", "2 1/4 cups sugar", "3 1/2 cups heavy cream", "Pinch of salt"],
+            "bakingSteps": {
+                "step1" : "Peel the zest in strips from the lemons. Cut the strips into 1-by-1/8-inch julienne. Transfer the zest to a large saucepan and cover with water. Bring to a boil and simmer for 10 minutes. Drain and return the zest to the saucepan. Add 1 1/4 cups of the sugar and 1 1/4 cups of water and bring to a boil. Simmer over moderate heat until the syrup is reduced to 2/3 cup and the zest strips are translucent, about 10 minutes. Using a slotted spoon, transfer the strips to a bowl and toss with the remaining 1 cup of sugar. Let cool.",
+                "step2" : "Add 3 cups of the cream to the lemon syrup in the saucepan and simmer until reduced to 3 1/2 cups, about 15 minutes.",
+                "step3" : "Halve and juice the lemons; you should have 3/4 cup of juice. Add the lemon juice and salt to the saucepan and let cool slightly. Pour the pudding into 6 glasses and chill until set; at least 5 hours and preferably overnight.",
+                "step4" : "Beat the remaining 1/2 cup of cream until soft peaks form; dollop on the puddings. Garnish with the zests and serve."
+            }
+        }
+    },
+    "18": {
+        "name": "Coconut Macaroons",
+        "resources": ["flaked coconut", "condensed milk", "vanilla extract"],
+        "tags": ["Gluten-free", "Dessert", "Snack", "Vegetarian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fuploads%2F2011%2F12%2Fcoconut-macaroons-horiz-a-1800.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["5 1/2 cups sweetened flaked coconut (gently packed)", "1 (14-ounce) can sweetened ​condensed milk", "2 to 3 teaspoons vanilla extract"],
+            "bakingSteps": {
+                "step1" : "Gather the ingredients.",
+                "step2" : "Heat the oven to 325 F/165 C/Gas 3.",
+                "step3" : "Line the baking sheets with parchment paper or nonstick foil. Spray the paper or foil with nonstick cooking spray.",
+                "step4" : "In a bowl, combine the coconut, sweetened condensed milk, and vanilla extract; blend well.",
+                "step5" : "Grease a teaspoon or cookie scoop or spray it with nonstick cooking spray.",
+                "step6" : "Using the teaspoon or cookie scoop, drop mounds of the coconut mixture onto the prepared baking sheets, leaving about 1 1/2 inches between ​the cookies.",
+                "step7" : "Bake for 10 to 12 minutes, or until lightly browned around the edges.",
+                "step8" : "Immediately remove the cookies to a rack to cool and Enjoy!"
+            }
+        }
+    },
+    "19": {
+        "name": "Banana rolls",
+        "resources": ["banana", "almond butter", "cinnamon"],
+        "tags": ["Dessert", "Fast", "Easy", "Gluten-free", "Vegetarian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-gmi-pmc.edge-generalmills.com%2F7fa34c1d-b378-44ef-b67f-c5fc35e3e9bc.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 Medium-Sized Banana", "1 Tbl Almond Butter", "1/2 tsp Cinnamon"],
+            "bakingSteps": {
+                "step1" : "Preheat your oven to 375 degrees. Using a butter knife, cut about ½ deep down the length of your banana.",
+                "step2": "With the back of a spoon, widen the cut to make room for the almond butter. Spoon the almond butter throughout the opening in the banana.",
+                "step3" : "Sprinkle with cinnamon. Wrap completely in aluminum foil.",
+                "step4" : "Bake for 15 minutes at 375 degrees. Remove from oven and let cool for 1-2 minutes (or until it’s cool enough to handle).",
+                "step5" : "Unwrap and either eat directly from the foil or move to a plate. Enjoy!"
+            }
+        }
+    },
+    "20": {
+        "name": "BANANA PANCAKES",
+        "resources": ["banana", "eggs", "oats"],
+        "tags": ["Breakfast", "Gluten-free", "Vegetarian", "Fast"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcatalinalinkava.files.wordpress.com%2F2014%2F03%2Fbanana-pancakes-2.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 large ripe banana", "1 large egg", "2 tbsp quick oats", "1/4 tsp baking powder(OPTIONAL)"],
+            "bakingSteps": {
+                "step1" : "In a blender or food processor add all ingredients. Blend until banana is smooth and ingredients are evenly mixed. It's okay for the oats to still be in pieces.",
+                "step2" : "Grease a skillet or griddle with cooking oil spray and bring to medium heat. Pour 2 tbsp of batter into the skillet once it is hot. Try to keep the batter to 2 tbsp because if they are too big the pancakes will be hard to flip.",
+                "step3" : "Cook pancake until bubbles appear on the surface and begin to pop. Carefully flip the pancake over and cook a few more minutes until it is cooked on both sides. The first pancake will likely come out looking unevenly colored, but the pancakes you cook in the same spot after should look golden brown on top. Repeat with remaining batter.",
+                "step4" : "Serve pancakes with syrup, fresh banana slices, whipped cream or other toppings of your choice."
+            }
+        }
+    },
+    "21": {
+        "name": "Simple Pizza",
+        "resources": ["all purpose flour", "greek yogurt", "all purpose flour", "baking powder", "tomato sauce"],
+        "tags": ["Italian", "Fast", "Easy", "Vegetarian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FP-Ojv_1veCg%2Fmaxresdefault.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 cup nonfat plain Greek yogurt", "1 ½ cups all purpose flour", "2 ¼ tsp baking powder", "3/8 tsp salt", "tomato sauce", "pizza topping of choice"],
+            "bakingSteps": {
+                "step1" : "mix 1 ½ cups all purpose flour + 2 ¼ tsp baking powder + 3/8 tsp salt to make self rising flour",
+                "step2" : "Preheat oven to 450°F.",
+                "step3" : "In a large bowl, add yogurt and flour. When measuring out the yogurt, make sure that you strain out any liquid. Any extra liquid sitting in your yogurt will cause the dough to be too wet.",
+                "step4" : "Using a large spoon or spatula, mix together flour and yogurt until it begins to form a crumbly dough. The dough will be very sticky.",
+                "step5" : "Add your dough to a stand mixer with a dough hook attachment. Knead the dough on medium speed until it becomes one ball and pulls away from the sides of the bowl. This should only take a few minutes and you should be watching your mixer carefully and stop kneading as soon as it is becomes one ball and pulls away from the bowl. If you over-knead it, the dough will become sticky again. If you do not have a stand mixer, you can knead the dough by hand. You will need to cover your kneading surface with flour and knead the dough by hand until it is tacky and no longer sticky.",
+                "step6" : "Roll your dough ball out onto a lightly flour dusted surface. Continue to roll with a rolling pin until it forms a round circle that is 12 inches in diameter about a quarter inch thick.",
+                "step7" : "Generously dust your pizza stone with cornmeal (this will help prevent your crust from sticking to the stone). Place pizza dough on top. Spread tomato sauce over crust, leaving about 1 inch edge uncovered. Sprinkle with cheese. Top with remaining toppings like sausage, peppers, pepperoni. Place pizza stone in oven and cook for about 10 minutes. Turn up the oven to 500°F and continue to cook the pizza for a few more minutes until the edges are a dark golden brown and crispy."
+            }
+        }
+    },
+    "22": {
+        "name": "GRILLED CHEESE AND TOMATO SANDWICHES",
+        "resources": ["toast bread", "tomatoes", "Cheddar cheese", "butter"],
+        "tags": ["Snack", "Fast", "Easy", "Vegetarian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AXyjAC4-K-lGwFQ0Zwt1rgHaIT%26pid%3DApi&f=1",
+
+        "steps": {
+            "ingredients": ["4 slices toast bread", "1  medium tomato", "4 slices white cheddar cheese", "2 tbsp unsalted butter"],
+            "bakingSteps": {
+                "step1" : "Spread about 1/2 tbsp butter on one side of each slice of bread. Place a slice of cheese on top of the unbuttered side of each bread slice. Add a few slices of tomato to two of the slices. Place remaining slices of bread on top, to form two sandwiches (with butter side facing up).",
+                "step2" : "Place skillet pan on the stove and turn to medium heat. Once hot, carefully place the sandwiches in the frying pan, cooking the bottom buttered side until golden and toasty and the cheese is melty. Press down on the sandwiches with a spatula or other cooking tool to help it heat through the cheese layer faster. Then carefully flip over and cook until the other side is also toasty and cheese is melted"
+            }
+        }
+    },
+    "23": {
+        "name": "English Muffin",
+        "resources": ["milk", "coconut flour", "eggs", "baking powder"],
+        "tags": ["Breakfast", "Vegetarian", "Snack"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.budgetbytes.com%2Fwp-content%2Fuploads%2F2010%2F07%2FEnglish-Muffins-front.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["2 tbsp coconut flour", "1 large egg", "1/8 tsp baking powder", "2 tbsp milk"],
+            "bakingSteps": {
+                "step1" : "Grease the interior of a 3.5 inch wide ramekin.",
+                "step2" : "In a small bowl, combine all four ingredients. Whisk together with a small whisk until batter is smooth and even.",
+                "step3" : "Pour contents into your ramekin. Cook in the microwave at full power for about 90 seconds or until muffin is completely cooked.",
+                "step4" : "Eat muffin as is, or slice in half and toast in a toaster oven or in a small frying pan over the stove."
+            }
+        }
+    },
+    "24": {
+        "name": "Chocolate Cake",
+        "resources": ["butter", "eggs", "chocolate"],
+        "tags": ["Cake", "Dessert", "Snack", "Vegetarian", "Gluten-free"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FdsJtgmAhFF4%2Fmaxresdefault.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 cup (2 sticks) unsalted butter, plus more for pan", "8 large eggs", "16 ounces semisweet chocolate chips", "1/4 teaspoon fine sea salt"],
+            "bakingSteps": {
+                "step1" : "Preheat oven to 350°F. Grease springform pan with butter and line bottom with parchment.",
+                "step2" : "Using an electric mixer on high speed, beat eggs in a large bowl until doubled in size, about 5 minutes.",
+                "step3" : "Place chocolate chips, salt, and 1 cup butter in a large microwave-proof bowl. Microwave on high in 10-second bursts, stirring between bursts, until smooth and pourable.",
+                "step4" : "Using a rubber spatula, gently fold one-third of the whipped eggs into chocolate mixture until incorporated. Fold egg and chocolate mixture back into remaining whipped eggs until incorporated.",
+                "step5" : "Transfer to prepared pan; cover bottom and sides of pan completely with foil. Set springform pan inside a large roasting pan; add hot water to a depth of about 1''",
+                "step6" : "Bake cake until a toothpick inserted into the center comes out clean and sides of cake begin to pull away from pan, 30–40 minutes. Let cool before serving."
+            }
+        }
+    },
+    "25": {
+        "name": "Chocolate Bark",
+        "resources": ["chocolate", "hard candy"],
+        "tags": ["Snack", "Fast", "Gluten-free", "Vegetarian", "Dessert", "Easy"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jamieoliver.com%2Fnews-and-features%2Ffeatures%2Fwp-content%2Fuploads%2Fsites%2F2%2F2015%2F04%2Ffeature-header.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["12 ounces high-quality dark chocolate, coarsely chopped", "1/2 teaspoon peppermint extract (OPTIONAL)", "5 candy canes, coarsely crushed"],
+            "bakingSteps": {
+                "step1" : "Line a baking sheet with parchment. Bring a double boiler or a heatproof bowl set over a small pot of water to a low simmer. Place chocolate in bowl and gently stir until completely melted. Remove from heat and stir in peppermint extract.",
+                "step2" : "Pour chocolate mixture onto prepared baking sheet and spread evenly with a spatula or wooden spoon. Immediately sprinkle with crushed candy canes and press lightly to adhere.",
+                "step3" : "Freeze until hardened, about 5 minutes. Break into pieces and serve."
+            }
+        }
+    },
+    "26": {
+        "name": "French Macaroons",
+        "resources": ["powdered sugar", "eggs", "sugar", "ground almonds"],
+        "tags": ["Snack", "Dessert", "Vegetarian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.weddingcakesbakery.com%2Fmedia%2Fcustomoptions%2Foptions%2F1004%2F15335%2F_Z_20704.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["3 egg whites", "sugar", "powdered sugar", "115 cups finely ground almonds"],
+            "bakingSteps": {
+                "step1" : "Line a baking sheet with a silicone baking mat.",
+                "step2" : "Beat egg whites in the bowl of a stand mixer fitted with a whisk attachment until whites are foamy; beat in white sugar and continue beating until egg whites are glossy, fluffy, and hold soft peaks. Sift confectioners' sugar and ground almonds in a separate bowl and quickly fold the almond mixture into the egg whites, about 30 strokes.",
+                "step3" : "Spoon a small amount of batter into a plastic bag with a small corner cut off and pipe a test disk of batter, about 1 1/2 inches in diameter, onto prepared baking sheet. If the disk of batter holds a peak instead of flattening immediately, gently fold the batter a few more times and retest.",
+                "step4" : "When batter is mixed enough to flatten immediately into an even disk, spoon into a pastry bag fitted with a plain round tip. Pipe the batter onto the baking sheet in rounds, leaving space between the disks. Let the piped cookies stand out at room temperature until they form a hard skin on top, about 1 hour.",
+                "step5" : "Preheat oven to 285 degrees F (140 degrees C).",
+                "step6" : "Bake cookies until set but not browned, about 10 minutes; let cookies cool completely before filling."
+            }
+        }
+    },
+    "27": {
+        "name": "Paleo Baked Eggs in Avocado",
+        "resources": ["eggs", "avocado"],
+        "tags": ["Easy", "Apperizer", "Fast", "Snack", "Vegetarian", "Gluten-free"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F600x600%2F1903456.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["2 small eggs", "1 avocado, halved and pitted", "2 slices cooked bacon, crumbled(optional)", "1 pinch sea salt and ground black pepper to taste", "any salad related food choped"],
+            "bakingSteps": {
+                "step1" : "Preheat oven to 425 degrees F (220 degrees C).",
+                "step2" : "Crack the eggs into a bowl, being careful to keep the yolks intact.",
+                "step3" : "Arrange avocado halves in a baking dish, resting them along the edge so avocado won't tip over. Gently spoon 1 egg yolk into the avocado hole. Continue spooning egg white into the hole until full. Repeat with remaining egg yolk, egg white, and avocado. Season each filled avocado with chives, parsley, sea salt, and pepper.",
+                "step4" : "Gently place baking dish in the preheated oven and bake until eggs are cooked, about 15 minutes. Sprinkle bacon over avocado."
+            }
+        }
+    },
+    "28": {
+        "name": "Hummus",
+        "resources": ["chickpeas", "garlic", "olive oil"],
+        "tags": ["Apperizer", "Fast", "Easy", "Vegetarian", "Gluten-free"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.simplyrecipes.com%2Fwp-content%2Fuploads%2F2017%2F12%2Feasy-hummus-horiz-a-1800.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["Chickpeas 15 ounce", "1 clove garlic, crushed", "2 teaspoons ground cumin(optional)", "1/2 teaspoon salt", "1 tablespoon olive oil"],
+            "bakingSteps": {
+                "step1" : "In a blender or food processor combine garbanzo beans, garlic, cumin, salt and olive oil. Blend on low speed, gradually adding reserved bean liquid, until desired consistency is achieved."
+            }
+        }
+    },
+    "29": {
+        "name": "Keto Cheese Crisps",
+        "resources": ["Cheddar cheese"],
+        "tags": ["Apperizer", "Easy", "Vegetarian", "Gluten-free", "Fast"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F560x315%2F6332046.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["1 cup shredded Cheddar cheese"],
+            "bakingSteps": {
+                "step1" : "Shred Chedar cheese",
+                "step2" : "Preheat oven to 400 degrees F (200 degrees C). Line 2 baking sheets with parchment paper.",
+                "step3" : "Arrange Cheddar cheese in 24 small heaps on the prepared baking sheets.",
+                "step4" : "Bake in the preheated oven until golden brown, about 7 minutes. Cool for 5 to 10 minutes before removing from baking sheets."
+            }
+        }
+    },
+    "30": {
+        "name": "Frosty grapes",
+        "resources": ["grapes", "white sugar"],
+        "tags": ["Snack", "Apperizer", "Easy", "Gluten-free", "Vegetarian"],
+        "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F560x315%2F798534.jpg&f=1&nofb=1",
+
+        "steps": {
+            "ingredients": ["2 cups of grapes", "1/4 cup white sugar"],
+            "bakingSteps": {
+                "step1" : "Remove grapes from stems and place in a colander. Wash thoroughly.",
+                "step2" : "Place grapes in a gallon-size resealable bag.",
+                "step3" : "Pour sugar into the bag and seal. Gently shake the bag to evenly coat grapes with sugar. ",
+                "step4" : "Arrange grapes on a paper towel to air-dry any remaining water, about 15 minutes.",
+                "step5" : "Place grapes in a single layer on a shallow pan or baking sheet. Freeze for at least 2 hours."
+            }
+        }
     }
 }]
-
-
