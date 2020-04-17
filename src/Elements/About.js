@@ -19,9 +19,15 @@ function Header() {
             </center>
         </h1>
             <p>
-            Why make this? well that is a good question. The reason why I made this is that in the future I can see a bunch of people(my self included) not wanting to spend too much time preparing a meal or thinking about food, thus I thought what it would be great to know what you can make just from the current contents of you're fridge and more
+            Why make this? well that is a good question. The reason why I made this is that in the future I can see a bunch of people(my self included) not wanting to spend too much time preparing a meal or thinking about food, thus I thought that it would be great to know what you can make just from the current contents of you're fridge and more          
             </p> <br></br>
-            <a>V2.3</a>
+            <a><b>
+              Author: Daniel Rosel
+            </b></a> <br></br>
+            <a><b>
+              Get REST API: <a href="https://github.com/danalves24com/chefy">Github Repo</a>
+            </b></a> <br></br>
+            <a>V3.1</a>
         </div>
     </div>
     </div>
