@@ -75,7 +75,7 @@ function match(steps, allSteps, book, r, step) {
         <h3>
         ${book[r].name}
         </h3>
-        <img alt="food picture" id="foodIMG" src="${book[r].img}"></img>    
+        <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
         </center>
 
     <p id="aboutFood">
@@ -143,7 +143,7 @@ $(document).ready(function(){
             ${book[r].name}
             </h3>
             -<u>You might not have all the ingredients! ${missingI}</u></b> <br>
-            <img alt="food picture" id="foodIMG" src="${book[r].img}"></img>    
+            <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
 
             </center>
             <p id="aboutFood">
@@ -217,6 +217,7 @@ function Book() {
         "name": "",
         "resources": [""],
         "tags": [],
+        "img": "",
         "steps": {
             "ingredients": [""],
             "bakingSteps": {
