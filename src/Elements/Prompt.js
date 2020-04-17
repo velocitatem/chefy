@@ -9,6 +9,7 @@ var allResources = [ ]
 var data
 
 
+
 function dtW() {
     let rcp = data[0]
     for (var t in rcp) {

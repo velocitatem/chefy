@@ -1,5 +1,5 @@
 import React from 'react';
-import $ from  'jquery';
+import $ from  'jquery'; 
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
     .then((response) => {
         return response.json();
