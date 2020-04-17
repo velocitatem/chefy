@@ -12,7 +12,7 @@ const options = {
   mode: "cors",
 }
 
-fetch("https://enmlfbmjyaluo.x.pipedream.net/?source=chefy&"+abt, options)
+fetch("https://f2f9c9ced21c02785bbd4ee05edf8c79.m.pipedream.net/"+abt, options)
 }
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
 .then((response) => {
@@ -96,8 +96,9 @@ function match(steps, allSteps, book, r, step) {
 $(document).ready(function(){
     console.clear()
     var url = new URLSearchParams(window.location.search);
-    report(url)
     output = url.getAll('item');
+    report(output)
+
     for (var r in book) {
         let resources = book[r].resources
         let ui = 0
