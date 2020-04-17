@@ -4,6 +4,12 @@ body {
   font-family: 'Baloo Paaji 2', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+#al {
+  cursor: url("./favicon.png"), auto;	
+
 }
 
 code {
