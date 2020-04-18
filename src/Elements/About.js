@@ -25,7 +25,7 @@ function Header() {
               Author: Daniel Rosel
             </b></a> <br></br>
             <a><b>
-              Get REST API: <a href="https://github.com/danalves24com/chefy">Github Repo</a>
+              <a href="https://danalves24com.github.io/data/cookbook-api/api.json">REST API</a>
             </b></a> <br></br>
             <a>V3.1</a>
         </div>

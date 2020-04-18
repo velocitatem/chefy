@@ -40,6 +40,9 @@ if (notFound == dataLength){
 $("#items").html(`
 <center>
 <h2>Sorry... We couldn't find anything yet 🙁</h2>
+<p>
+More recipes coming soon, or you can add one of your own <a href="/contribute">here</a>
+</p>
 </center>
 `)
 }
