@@ -63,9 +63,25 @@ function iHave(item) {
     userItems += item + ","
 }
 
+function report(abt) {
+    const headers = new Headers()
+headers.append("Content-Type", "application/json")
+
+const options = {
+  method: "POST",
+  headers,
+  mode: "cors",
+}
+
+fetch("https://enmlfbmjyaluo.x.pipedream.net/?src=chefy&"+abt, options)
+}
+
 function evaluate() {
-   
+    var url = new URLSearchParams(window.location.search);
+    var output = url.getAll('item');
     console.log(selected)
+    report(JSON.parse($("#options")))
+   alert()
 }
 
 // filter 

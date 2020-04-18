@@ -12,13 +12,16 @@ const options = {
   mode: "cors",
 }
 
-fetch("https://f2f9c9ced21c02785bbd4ee05edf8c79.m.pipedream.net/"+abt, options)
+fetch("https://enmlfbmjyaluo.x.pipedream.net/?src="+window.location+"&"+abt, options)
 }
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
 .then((response) => {
     return response.json();
 })
 .then((data) => {
+    let repD = new URLSearchParams(window.location.search)
+    report(repD)
+
     console.log(data)
     rcp = data
     for (var dt in rcp[0]) {
@@ -47,7 +50,6 @@ More recipes coming soon, or you can add one of your own <a href="/contribute">h
 `)
 }
 else {
-
 }
 }
 function match(steps, allSteps, book, r, step) {
@@ -95,12 +97,12 @@ function match(steps, allSteps, book, r, step) {
     </p>
     `)
 }
-
+var uit = ""
 $(document).ready(function(){
     console.clear()
     var url = new URLSearchParams(window.location.search);
     output = url.getAll('item');
-    report(output)
+    uit = output
 
     for (var r in book) {
         let resources = book[r].resources
@@ -166,7 +168,8 @@ $(document).ready(function(){
             </p>
             `)
         }
-        else {                        
+        else {  
+                                  
             ERRnotFound()
         }
 
