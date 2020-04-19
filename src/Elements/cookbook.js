@@ -50,14 +50,14 @@ for(var r in data) {
     <h3>
     ${data[r].name}
     </h3>
-    </div>        
-    </div>
-    <p><b>Tags: </b>${Alltags}</p>
+    <a id="tags">${Alltags}</a>
     <a href="/share/?item=${data[r].name}">Share/Enlarge</a> <br>
     <b>Ingredients: </b> 
-    <ul>
+    <ul id='ings'>
     ${ing}
     </ul>
+    </div>        
+    </div>
     ${steps}
     </div>
     <hr>

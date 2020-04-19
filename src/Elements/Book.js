@@ -54,11 +54,19 @@ else {
 }
 function match(steps, allSteps, book, r, step) {
     found+=1
+    let ing = ""
     for (var s in steps) {
         allSteps += `
         <h3># ${s}: </h3> ${steps[s]}
         `
     }    
+    for(var n in book[r].steps.ingredients) {
+        ing += `
+        <li>
+            ${book[r].steps.ingredients[n]}
+        </li>
+        `
+    }
     let tags= ``
     for(var t in book[r].tags) {
         tags += `
@@ -85,11 +93,14 @@ function match(steps, allSteps, book, r, step) {
         ${book[r].name}
         </h3>
         <p id="aboutFood">
-        <b>Tags:</b><tags>
-        ${tags}
-        </tags> <br>
-        <b>ingredients:</b> ${book[r].steps.ingredients} <br>
-        <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> 
+        <a id="tags">
+        ${tags} 
+        </a> <br>
+        <a href="/share/?item=${book[r].name}">Share/Enlarge</a> 
+        <h5>Ingredients: </h5> 
+        <ul id='ings'>
+        ${ing}
+        </ul>
         </div>        
         </div>        
     ${allSteps}
@@ -126,6 +137,14 @@ $(document).ready(function(){
             match(steps, allSteps, book, r)
         }
         else if (ui >= (resources.length*0.7)) {
+            let ing = ""
+            for(var n in book[r].steps.ingredients) {
+                ing += `
+                <li>
+                    ${book[r].steps.ingredients[n]}
+                </li>
+                `
+            }
             for (var s in steps) {
                 allSteps += `
                 <h3># ${s}: </h3> ${steps[s]}
@@ -156,15 +175,18 @@ $(document).ready(function(){
             ${book[r].name}
             </h3>
             -<u>You might not have all the ingredients! ${missingI}</u></b> <br>
-            <p id="aboutFood">
-            <b>Tags:</b>            
-            ${tags}            
-            <br>
-            <b>ingredients:</b> ${book[r].steps.ingredients} <br>
-            <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> 
+            <p id="aboutFood">          
+            <a id="tags">
+            ${tags} 
+            </a>           
+            <br>            
+            <a href="/share/?item=${book[r].name}">Share/Enlarge</a> 
+            <h5>Ingredients: </h5> 
+            <ul id='ings'>
+            ${ing}
+            </ul>
             </div>        
-            </div>     
-            <br>
+            </div>                 
             ${allSteps}
             </p>
             </div>
