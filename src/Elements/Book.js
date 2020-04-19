@@ -122,11 +122,15 @@ $(document).ready(function(){
         let resources = book[r].resources
         let ui = 0
         let missing = 0
-        let missingI= []
+        let itemsOfRecipe = []
+        let rsc = resources
         for (var t in output) {
             if (resources.includes(output[t])) {
-                ui+=1
-            }    
+                ui+=1                         
+                itemsOfRecipe.push(output[t])            
+            }   
+
+
         }
         //console.log
         let steps = book[r].steps.bakingSteps
@@ -136,15 +140,13 @@ $(document).ready(function(){
         if(ui == resources.length) {
             match(steps, allSteps, book, r)
         }
-        else if (ui >= (resources.length*0.7)) {
+        else if (ui >= (resources.length*0.8)) {
+            let current = resources
+
+
+            let missingI=current
             let ing = ""
-            for(var n in book[r].steps.ingredients) {
-                ing += `
-                <li>
-                    ${book[r].steps.ingredients[n]}
-                </li>
-                `
-            }
+
             for (var s in steps) {
                 allSteps += `
                 <h3># ${s}: </h3> ${steps[s]}
@@ -162,6 +164,25 @@ $(document).ready(function(){
                     filterTags.push(book[r].tags[t])
                 }
             }
+            for(var n in book[r].steps.ingredients) {
+                ing += `
+                <li>
+                    ${book[r].steps.ingredients[n]}
+                </li>
+                `
+            }
+            for (var it in itemsOfRecipe) {
+                delete rsc[rsc.indexOf(itemsOfRecipe[it])]
+            }
+            let missing = []
+            for(var msngi in rsc) {
+                console.warn(rsc[msngi])
+                missing.push(rsc[msngi])
+            }
+            let missingItems = `<h5>Missing Items:</h5>`
+            for(var tm in missing) {
+                missingItems+=`- ${missing[tm]}<br>`
+            }
             $("#items").append(`
             <p>
             <div class="row">
@@ -174,19 +195,22 @@ $(document).ready(function(){
             <h3>
             ${book[r].name}
             </h3>
-            -<u>You might not have all the ingredients! ${missingI}</u></b> <br>
+            -<u>You might not have all the ingredients! </u></b> <br>
             <p id="aboutFood">          
             <a id="tags">
             ${tags} 
             </a>           
             <br>            
             <a href="/share/?item=${book[r].name}">Share/Enlarge</a> 
+            <p id="missing">      
+            ${missingItems}      
+            </p>
+            </div>        
+            </div>             
             <h5>Ingredients: </h5> 
             <ul id='ings'>
             ${ing}
-            </ul>
-            </div>        
-            </div>                 
+            </ul>    
             ${allSteps}
             </p>
             </div>
