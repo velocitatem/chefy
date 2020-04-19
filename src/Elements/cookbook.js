@@ -42,9 +42,16 @@ for(var r in data) {
 
     let itemCode = `
     <div id="bookitem">    
-    <center>🍽<h2>${data[r].name}</h2>
-    <img alt="food picture" id="foodIMG" src="${data[r].img}"></img>    
-    </center>
+    <div class="row">
+    <div class="col-sm-5">
+    <img alt="Picture not found" id="foodIMG" src="${data[r].img}"></img>    
+    </div>
+    <div class="col-sm-7">
+    <h3>
+    ${data[r].name}
+    </h3>
+    </div>        
+    </div>
     <p><b>Tags: </b>${Alltags}</p>
     <a href="/share/?item=${data[r].name}">Share/Enlarge</a> <br>
     <b>Ingredients: </b> 
@@ -52,8 +59,8 @@ for(var r in data) {
     ${ing}
     </ul>
     ${steps}
-    <hr id="bookSep">
     </div>
+    <hr>
     `
     $("#Bookitems").append(itemCode)
 }
@@ -79,7 +86,9 @@ function Header() {
     <div class="container">
     <div id="rcp">
         <h1 id="cb">Cookbook</h1>
+        <p id="bookFC">
         <input type="text" id="bookfilter" placeholder="What are you looking for..." list="tagsF"></input>
+        </p>
         <datalist id="tagsF">
 
         </datalist>        

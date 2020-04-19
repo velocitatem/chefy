@@ -62,7 +62,7 @@ function match(steps, allSteps, book, r, step) {
     let tags= ``
     for(var t in book[r].tags) {
         tags += `
-        <td>${book[r].tags[t]}</td>
+        <td>#${book[r].tags[t]}</td>
         `
         if(filterTags.includes(book[r].tags[t])) {
 
@@ -75,20 +75,23 @@ function match(steps, allSteps, book, r, step) {
     <p>    
     <div class="row">
     <div class="col-sm-12">
-
-        <center>
+        
+        <div class="row">
+        <div class="col-sm-5">
+        <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
+        </div>
+        <div class="col-sm-7">
         <h3>
         ${book[r].name}
         </h3>
-        <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
-        </center>
-
-    <p id="aboutFood">
-    <b>Tags:</b><tags>
-    ${tags}
-    </tags> <br>
-    <b>ingredients:</b> ${book[r].steps.ingredients} <br>
-    <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> <br>
+        <p id="aboutFood">
+        <b>Tags:</b><tags>
+        ${tags}
+        </tags> <br>
+        <b>ingredients:</b> ${book[r].steps.ingredients} <br>
+        <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> 
+        </div>        
+        </div>        
     ${allSteps}
     </p>
     </div>
@@ -131,7 +134,7 @@ $(document).ready(function(){
             let tags= ``
             for(var t in book[r].tags) {
                 tags += `
-                <td>${book[r].tags[t]}</td>
+                <td>#${book[r].tags[t]}</td>
                 `
                 if(filterTags.includes(book[r].tags[t])) {
 
@@ -143,23 +146,25 @@ $(document).ready(function(){
             $("#items").append(`
             <p>
             <div class="row">
-            <div class="col-sm-12">
-            <center>
+            <div class="col-sm-12">            
+            <div class="row">
+            <div class="col-sm-5">
+            <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
+            </div>
+            <div class="col-sm-7">
             <h3>
             ${book[r].name}
             </h3>
             -<u>You might not have all the ingredients! ${missingI}</u></b> <br>
-            <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
-
-            </center>
             <p id="aboutFood">
-            <b>Tags:</b><table>
-            <tr>
-            ${tags}
-            </tr>
-            </table> <br>
+            <b>Tags:</b>            
+            ${tags}            
+            <br>
             <b>ingredients:</b> ${book[r].steps.ingredients} <br>
-            <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> <br>
+            <a href="/share/?item=${book[r].name}">Share/Enlarge/Print</a> 
+            </div>        
+            </div>     
+            <br>
             ${allSteps}
             </p>
             </div>

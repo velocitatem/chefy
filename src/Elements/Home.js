@@ -11,8 +11,10 @@ function Home() {
         <div>
         
             <div class="row">
-                <div class="ttimg">
-
+                <div class="col-lg-12">
+                    <h1 id="homeTi">
+                        Chefy
+                    </h1>
                 </div>
             </div>   
            <div class="row">

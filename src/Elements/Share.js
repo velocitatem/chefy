@@ -52,8 +52,9 @@ function filter(data) {
         <center>
         <h3>
         ${book[r].name}
-
         </h3>
+        <img alt="Picture" id="foodIMG" src="${book[r].img}"></img>    
+
         </center>
 
     <p id="aboutFood">

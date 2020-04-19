@@ -63,25 +63,9 @@ function iHave(item) {
     userItems += item + ","
 }
 
-function report(abt) {
-    const headers = new Headers()
-headers.append("Content-Type", "application/json")
-
-const options = {
-  method: "POST",
-  headers,
-  mode: "cors",
-}
-
-fetch("https://enmlfbmjyaluo.x.pipedream.net/?src=chefy&"+abt, options)
-}
-
 function evaluate() {
-    var url = new URLSearchParams(window.location.search);
-    var output = url.getAll('item');
+   
     console.log(selected)
-    report(JSON.parse($("#options")))
-   alert()
 }
 
 // filter 
@@ -103,7 +87,7 @@ function Prompt() {
             <div class="wrapper">
             <div class="row">
                 <div class="col-sm-4">
-                <h2 id="select">Select What you have</h2>
+                <h2 id="select">Select All The Ingredients You Have At home</h2>
                 </div>
                     <div class="col-sm-8">
                     <center>
