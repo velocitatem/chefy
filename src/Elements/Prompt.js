@@ -15,14 +15,14 @@ function dtW() {
     for (var t in rcp) {
         let Cresources = rcp[t].resources
         for (var i in Cresources) {
-            console.log(Cresources[i])
+            //console.log(Cresources[i])
             if (allResources.includes(Cresources[i])) {} else {
                 allResources.push(Cresources[i])
             }
             //
         }
     }
-console.log(allResources)
+//console.log(allResources)
 
     for (var item in allResources) {
         let code = `
@@ -44,9 +44,9 @@ $(document).ready(function(){
         return response.json();
     })
     .then((dat) => {
-        console.log(dat)
+        //console.log(dat)
         data = dat
-        console.log(data)
+        //console.log(data)
         dtW()
     })
     .catch(err => {

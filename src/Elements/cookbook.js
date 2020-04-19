@@ -5,7 +5,7 @@ fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
         return response.json();
     })
     .then((data) => {
-        console.log(data)
+        //console.log(data)
         proc(data)
 
     })
@@ -38,7 +38,7 @@ for(var r in data) {
             tagsARR.push(data[r].tags[t])
         }
     }
-    console.log(tagsARR)
+    //console.log(tagsARR)
 
     let itemCode = `
     <div id="bookitem">    
@@ -65,7 +65,7 @@ for(var r in data) {
     $("#Bookitems").append(itemCode)
 }
 for (var f in tagsARR) {
-    console.log(tagsARR[f])
+    // console.log(tagsARR[f])
     $("#tagsF").append(`
     <option value="${tagsARR[f]}">${tagsARR[f]}</options>
     `)

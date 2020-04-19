@@ -12,7 +12,7 @@ function Home() {
         
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 id="homeTi">
+                    <h1 id="home">
                         Chefy
                     </h1>
                 </div>

@@ -11,7 +11,7 @@ function Header() {
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="" id="navbarTogglerDemo01">      
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <a class="navbar-brand" href="/#tt">Chefy</a>
+        <a class="navbar-brand" href="/#home">Chefy</a>
           <li class="nav-item">
             <a class="nav-link" href="/select#select" id="navI"><b>Make me a dish</b></a>            
           </li>              
