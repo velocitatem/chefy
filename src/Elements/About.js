@@ -24,7 +24,7 @@ function Header() {
             Email: <a href="app.chefy@gmail.com"><b>
               app.chefy@gmail.com
             </b></a> <br></br>
-            Instagram: <a href="www.instagram.com/app.chefy"><b>
+            Instagram: <a href="https://www.instagram.com/app.chefy"><b>
              @app.chefy
             </b></a> <br></br>
             Facebook: <a href="https://www.facebook.com/chefy.app.14"><b>
