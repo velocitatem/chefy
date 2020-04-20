@@ -13,27 +13,24 @@ function Home() {
             <div class="row">
                 <div class="col-lg-12">
                     <h1 id="home">
-                        Chefy
+                        Chefy                        
                     </h1>
                 </div>
             </div>   
            <div class="row">
            <div class="col-sm-4">
                 <center>
-                    <img id="icon" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.istockphoto.com%2Fillustrations%2Fchili-pot-graphic-illustration-id167588419%3Fk%3D6%26m%3D167588419%26s%3D170667a%26w%3D0%26h%3DSlFe1moi5BE3GdXW0whF6MDhHTcG4751_TroGK4dWp0%3D&f=1&nofb=1"></img>
                     <h3 id="tt">Don't know what to cook with what you have?</h3>
                 </center>
             </div>
             <div class="col-sm-4">
                 <center>
-                    <img id="icon" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.ebayimg.com%2Fimages%2Fi%2F141314433865-0-1%2Fs-l1000.jpg&f=1&nofb=1"></img>
                     <h3>Don't want to get delivery?</h3>
                 </center>
             </div>
             <div class="col-sm-4">
                 <center>
-                    <img id="icon" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fphotos.gograph.com%2Fthumbs%2FCSP%2FCSP180%2Fsick-cartoon-avocado-vector-art_k25835125.jpg&f=1&nofb=1"></img>
-                    <h3>Stuck eating the same food?</h3>
+                    <h3>Can't go shopping?</h3>
                 </center>
             </div>
            </div> 

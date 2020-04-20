@@ -38,8 +38,6 @@ ReactDOM.render(
       </main>
     </div>
   </Router>
-  <div class="bg"></div>
-  <Foot></Foot>
 </body>,
   document.getElementById('root')
 );
