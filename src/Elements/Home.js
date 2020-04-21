@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from  'jquery';
-
+$("#home").attr("src", "")
 function Home() {
   return (
       
@@ -10,13 +10,21 @@ function Home() {
 
         <div>
         
-            <div class="row">
+           <p id="cover">
+           <div class="row">
                 <div class="col-lg-12">
-                    <h1 id="home">
-                        Chefy                        
+
+                    <center id="titleSpanHome">
+                    <img id="home" src="logo.png">                                                
+                    </img> <br></br>
+                    <h1>
+                    <a id="startNow" href="/select">Start now</a>
                     </h1>
+
+                    </center>
                 </div>
             </div>   
+           </p>
            <div class="row">
            <div class="col-sm-4">
                 <center>
@@ -63,7 +71,7 @@ function Home() {
             <div class="row">
                 <div class="col-sm-6">
                     <center>
-                        <h1>Start Now</h1>
+                        <h1>Try Now</h1>
                     </center>
                 </div>
                 <div class="col-sm-6">
