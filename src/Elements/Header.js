@@ -25,7 +25,7 @@ function Header() {
             <a class="nav-link" href="/about" id="navI">About</a>            
           </li>          
           <li class="nav-item"> 
-          
+
           </li>
         </ul>
       </div>        

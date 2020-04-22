@@ -24,7 +24,8 @@
 #atHome {
     width: 100%;
     border: none;       
-
+    border-bottom: solid;
+    border-bottom-color: #fff;
     font-size: x-large;
 }
 #atHome:active {

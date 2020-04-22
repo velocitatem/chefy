@@ -93,6 +93,7 @@ function match(steps, allSteps, book, r, step) {
         <h3>
         ${book[r].name}
         </h3>
+        -<B>You should have everything you need</b></b> <br>
         <p id="aboutFood">
         <a id="tags">
         ${tags} 
@@ -124,7 +125,7 @@ $(document).ready(function () {
                 let ui = 0
                 let missing = 0
                 let itemsOfRecipe = []
-                let rsc = resources
+                let rsc = resources                
                 for (var t in output) {
                     if (resources.includes(output[t])) {
                         ui += 1
@@ -138,7 +139,7 @@ $(document).ready(function () {
 
                 if (ui == resources.length) {
                     match(steps, allSteps, book, r)
-                } else if (ui >= (resources.length * 0.8)) {
+                } else if (ui <= (resources.length) && ui >= (resources.length * 0.8)) {
                     let current = resources
 
 
@@ -169,7 +170,7 @@ $(document).ready(function () {
                 `
                     }
                     for (var it in itemsOfRecipe) {
-                        delete rsc[rsc.indexOf(itemsOfRecipe[it])]
+                        delete rsc[rsc.indexOf(itemsOfRecipe[it])]                    
                     }
                     let missing = []
                     for (var msngi in rsc) {

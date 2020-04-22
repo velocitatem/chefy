@@ -2,26 +2,30 @@ import React from 'react';
 import $ from  'jquery';
 $("#home").attr("src", "")
 function Home() {
-  return (
-      
+  return (      
     <div class="container">
-
-
-
-        <div>
-        
+        <div>        
            <p id="cover">
            <div class="row">
                 <div class="col-lg-12">
 
-                    <center id="titleSpanHome">
+                    <div class="row">
+                        <div class="col-lg-4">
+
+                        </div>
+                        <div class="col-lg-4">
+                        <center id="titleSpanHome">
                     <img id="home" src="logo.png">                                                
-                    </img> <br></br>
+                    </img> <br></br>                         
                     <h1>
-                    <a id="startNow" href="/select">Start now</a>
                     </h1>
 
                     </center>
+                        </div>
+                        <div class="col-lg-4">
+
+                        </div>
+                    </div>
                 </div>
             </div>   
            </p>
@@ -64,6 +68,8 @@ function Home() {
                         <li>
                             <b>Have Fun cooking!!</b>
                         </li>
+                    <a id="startNow" href="/select">Start now</a>
+
                     </ol>
                </div>
             </div> 
