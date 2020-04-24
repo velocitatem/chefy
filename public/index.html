@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="favicon.png" />
+    <link rel="icon" href="./favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -22,9 +22,35 @@
   </body>
 </html>
 <style>
+  #navbarM{
+    border: solid;
+   color: white;
+   text-decoration: none;
+  }
+  body {
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    scroll-behavior: inherit;
+  scroll-behavior: initial;
+  scroll-behavior: unset;
+  }
+  body:change {
+    background-color: rebeccapurple;
+  }
   #filter {
     width: 100%;
     font-size: larger;    
+  }
+  #home {    
+    width: 100%;
+  }
+  #startNow {
+    text-align: center;
+  }
+  #titleSpanHome {
+   
+  }
+  #cover {
   }
   #bookfilter {
     border: none;
@@ -32,10 +58,19 @@
     font-size: larger;
     cursor: active;
     border-bottom: solid;
-
+  }
+  #bookFC {
+    padding-bottom: 0.5cm;
   }
   #filterW {    
     width: 100%;
+  }
+  #tags {
+    color: gray;
+    font-size: small;
+  }
+  #ings {
+
   }
   #lbit {
     width: 90%;
@@ -58,13 +93,14 @@
   -webkit-transform: scale(2); /* Safari and Chrome */
   -o-transform: scale(2); /* Opera */
   transform: scale(2);
-  padding: 30px;
   }
   .itemCB:hover {
     cursor: pointer;
   }
 #itemCBC {
     padding-left: 0.4cm;
+    cursor: url("./favicon.png"), auto;	
+
 } 
 
 #bookSep {
@@ -87,4 +123,8 @@
   background-color: gray;
   border: none;
 }
+#foodIMG {
+  width: 100%;
+}
+
 </style>

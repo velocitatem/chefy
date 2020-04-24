@@ -1,0 +1,22 @@
+"filename", "language", "JSON", "JavaScript", "CSS", "HTML", "Markdown", "comment", "blank", "total"
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\README.md", "Markdown", 0, 0, 0, 0, 37, 0, 32, 69
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\package.json", "JSON", 35, 0, 0, 0, 0, 0, 1, 36
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\public\index.html", "HTML", 0, 0, 0, 90, 0, 0, 3, 93
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\public\manifest.json", "JSON", 25, 0, 0, 0, 0, 0, 1, 26
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\public\style.css", "CSS", 0, 0, 55, 0, 0, 0, 3, 58
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\App.js", "JavaScript", 0, 9, 0, 0, 0, 0, 3, 12
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Data\rcp.json", "JSON", 475, 0, 0, 0, 0, 0, 31, 506
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\About.js", "JavaScript", 0, 29, 0, 0, 0, 0, 5, 34
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Book.js", "JavaScript", 0, 196, 0, 0, 0, 14, 19, 229
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Contribute.js", "JavaScript", 0, 40, 0, 0, 0, 0, 13, 53
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Footer.js", "JavaScript", 0, 13, 0, 0, 0, 12, 1, 26
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Header.js", "JavaScript", 0, 36, 0, 0, 0, 0, 4, 40
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Home.js", "JavaScript", 0, 73, 0, 0, 0, 0, 9, 82
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Prompt.js", "JavaScript", 0, 87, 0, 0, 0, 7, 20, 114
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\Share.js", "JavaScript", 0, 113, 0, 0, 0, 0, 7, 120
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\Elements\cookbook.js", "JavaScript", 0, 86, 0, 0, 0, 0, 11, 97
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\index.css", "CSS", 0, 0, 11, 0, 0, 0, 3, 14
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\index.js", "JavaScript", 0, 41, 0, 0, 0, 0, 6, 47
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\serviceWorker.js", "JavaScript", 0, 98, 0, 0, 0, 31, 13, 142
+"c:\Users\Daniel Alves Rosel\Documents\Coding\React\Projects\chefy\src\setupTests.js", "JavaScript", 0, 1, 0, 0, 0, 4, 1, 6
+"Total", "-", 535, 822, 66, 90, 37, 68, 186, 1804

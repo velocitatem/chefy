@@ -25,7 +25,7 @@ function Header() {
 
 <div className="App">
     <div class="container">
-        <h1>Contribute your recipe</h1>
+        <h1 id="cont">Contribute your recipe</h1>
     <div id="contribute">
         <input type="text" id="RCPname" placeholder="Name of the recipe"></input> <br></br>
         <h3>Ingredients:</h3>        

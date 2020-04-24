@@ -1,17 +1,17 @@
 import React from 'react';
-import $ from  'jquery';
+import $ from  'jquery'; 
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
-.then((response) => {
-    return response.json();
-})
-.then((data) => {
-    console.log(data)
-    proc(data)
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        //console.log(data)
+        proc(data)
 
-})
-.catch(err => {
-    console.log(err);
-})
+    })
+    .catch(err => {
+        console.log(err);
+    })
 function proc(data) {
 data = data[0]
 let tagsARR = []
@@ -32,36 +32,40 @@ for(var r in data) {
     
     for (var t in data[r].tags) {
         Alltags += `<td>#${data[r].tags[t]}  </td>`
-        if(tagsARR.includes(data[r].tags[t])) {
+        if (tagsARR.includes(data[r].tags[t])) {
 
-        }
-        else {
+        } else {
             tagsARR.push(data[r].tags[t])
-        }    
-        
+        }
     }
-    console.log(tagsARR)
+    //console.log(tagsARR)
 
     let itemCode = `
     <div id="bookitem">    
-    <center>🍽<h2>${data[r].name}</h2></center>
-    <p><b>Tags: </b>${Alltags}</p>
+    <div class="row">
+    <div class="col-sm-5">
+    <img alt="Picture not found" id="foodIMG" src="${data[r].img}"></img>    
+    </div>
+    <div class="col-sm-7">
+    <h3>
+    ${data[r].name}
+    </h3>
+    <a id="tags">${Alltags}</a>
     <a href="/share/?item=${data[r].name}">Share/Enlarge</a> <br>
     <b>Ingredients: </b> 
-    <ul>
+    <ul id='ings'>
     ${ing}
     </ul>
-    ${steps}
-    <hr id="bookSep">
+    </div>        
     </div>
+    ${steps}
+    </div>
+    <hr>
     `
     $("#Bookitems").append(itemCode)
-
-
-
 }
 for (var f in tagsARR) {
-    console.log(tagsARR[f])
+    // console.log(tagsARR[f])
     $("#tagsF").append(`
     <option value="${tagsARR[f]}">${tagsARR[f]}</options>
     `)
@@ -81,8 +85,10 @@ function Header() {
 <div className="App">
     <div class="container">
     <div id="rcp">
-        <h1>Cookbook</h1>
+        <h1 id="cb">Cookbook</h1>
+        <p id="bookFC">
         <input type="text" id="bookfilter" placeholder="What are you looking for..." list="tagsF"></input>
+        </p>
         <datalist id="tagsF">
 
         </datalist>        

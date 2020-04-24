@@ -12,7 +12,6 @@ import Contribute from './Elements/Contribute'
 import Share from './Elements/Share'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
-
 ReactDOM.render(
 <body>
 <Header></Header>
@@ -24,7 +23,7 @@ ReactDOM.render(
         <Link to={`/browse`}></Link>
 
       </aside>
-      <main>
+      <main id="mid">
       
         <Route exact path="/" component={Home} />
         <Route path="/select" component={Prompt} />
@@ -38,7 +37,6 @@ ReactDOM.render(
       </main>
     </div>
   </Router>
-  <Foot></Foot>
 </body>,
   document.getElementById('root')
 );

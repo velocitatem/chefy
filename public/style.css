@@ -9,10 +9,6 @@
 #opts {
     overflow: auto;
     height: 10cm;
-    border: solid;
-    border-color: burlywood;
-    border-top: none;
-    border-bottom: none;
     font-size: x-large;    
     padding-left: 0.5cm;
 }
@@ -22,23 +18,37 @@
 #foodWrap {
     color: aqua;
 }
+#options {
+    padding-top: 0.5cm;
+}
 #atHome {
     width: 100%;
-    border: solid;
-    border-color: burlywood;
+    border: none;       
+    border-bottom: solid;
+    border-bottom-color: #fff;
     font-size: x-large;
 }
-
+#atHome:active {
+    border-bottom: solid;
+    border-bottom-color: #2185ff;
+}
+#atHome:hover {
+    border-bottom: solid;
+    border-bottom-color: #2185ff;
+}
 #createBTN {
     width: 100%;
-    border: solid;
-    border-color: #deb887;
-    border-top: none;
-    color: black;
-    font-size: xx-large;
+    border: none;
+    font-size: x-large;
+    background-color: #2185ff;
 }
-#navB {
-    background-color: #deb887;
+#createBTN:hover {
+    text-decoration: underline;
+    background-color: #559ef6;
+}
+#createBTN:active {
+    text-decoration: underline;
+    background-color: #559ef6;
 }
 #filter {
     border: solid;
