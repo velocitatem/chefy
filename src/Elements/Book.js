@@ -135,8 +135,6 @@ $(document).ready(function () {
                 //console.log
                 let steps = book[r].steps.bakingSteps
                 let allSteps = ``
-
-
                 if (ui == resources.length) {
                     match(steps, allSteps, book, r)
                 } else if (ui <= (resources.length) && ui >= (resources.length * 0.8)) {
@@ -217,13 +215,9 @@ $(document).ready(function () {
             </p>
             `)
                 }
-        else {  
-                                  
+        else {                                    
             ERRnotFound()
         }
-
-        
- 
     }
     //console.log(filterTags)
     for (var f in filterTags) {
@@ -231,14 +225,11 @@ $(document).ready(function () {
         <option value="${filterTags[f]}">${filterTags[f]}</options>
         `)
     }
-
 })
 })
 .catch(err => {
     console.log(err);    
 })
-
-
 $(document).ready(function(){
     $("#filter").on("keyup", function() {
       var value = $(this).val().toLowerCase();
@@ -247,12 +238,10 @@ $(document).ready(function(){
       });
     });
   });
-
 function Book() {
   return (
     <div class="wrapper">
-      <div class="container" >
-        
+      <div class="container" >        
         <div class="row">
             <div id="filterW">
             <div class="panel panel-default">
