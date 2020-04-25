@@ -59,8 +59,8 @@ for(var r in data) {
     </div>        
     </div>
     ${steps}
-    </div>
     <hr>
+    </div>
     `
     $("#Bookitems").append(itemCode)
 }

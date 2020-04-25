@@ -81,6 +81,7 @@ function match(steps, allSteps, book, r, step) {
         }
     }        
     $("#items").append(`
+    <div>
     <p>    
     <div class="row">
     <div class="col-sm-12">
@@ -111,6 +112,7 @@ function match(steps, allSteps, book, r, step) {
     <hr>
     </div>
     </p>
+    </div>
     `)
 }
 var uit = ""
@@ -180,11 +182,12 @@ $(document).ready(function () {
                         missingItems += `- ${missing[tm]}<br>`
                     }
                     $("#items").append(`
+            <div id="itemFilterWrap">
             <p>
             <div class="row">
             <div class="col-sm-12">            
             <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-5" id="imgBookWrap">
             <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
             </div>
             <div class="col-sm-7">
@@ -213,6 +216,7 @@ $(document).ready(function () {
             <hr>
             </div>
             </p>
+            </div>
             `)
                 }
         else {                                    
@@ -236,6 +240,7 @@ $(document).ready(function(){
       $("#items div").filter(function() {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
       });
+      $("#imgBookWrap").attr("style", "display: block;")
     });
   });
 function Book() {
