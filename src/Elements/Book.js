@@ -14,7 +14,7 @@ function report(abt) {
         body: Intl.DateTimeFormat().resolvedOptions().timeZone
     }
 
-fetch("https://enmlfbmjyaluo.x.pipedream.net/?src="+window.location+"&"+abt, options)
+fetch("https://enmlfbmjyaluo.x.pipedream.net/?src="+"&"+abt, options)
 }
 fetch("https://danalves24com.github.io/data/cookbook-api/api.json")
     .then((response) => {

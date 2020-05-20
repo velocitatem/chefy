@@ -91,15 +91,14 @@ function Prompt() {
                 </div>
                     <div class="col-sm-8">
                     <center>
-                    <input id="atHome" placeholder="Search here.."></input>
+                    <input id="atHome" placeholder="Search here..."></input>
                     </center>
                     <div id="whatUserHas">  
                         <form id="options" action="/browse/">
                             <div id="opts">
-
-                            </div>
+                            </div>                            
                             <div id="btn">
-                                <input type="submit" onClick={evaluate} id="createBTN" value="Create!"></input>
+                                <input type="submit" id="createBTN" value="Create!"></input>
                             </div>
                         </form>
                     </div>
