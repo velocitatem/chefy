@@ -87,8 +87,7 @@ function Prompt() {
             <div class="wrapper">
             <div class="row">
                 <div class="col-sm-4">
-                <h2 id="select">Select All The Ingredients You Have At Home</h2>
-                We apologise for any bugs       
+                <h2 id="select">Select All The Ingredients You Have At Home</h2>                       
                 </div>
                     <div class="col-sm-8">
                     <center>

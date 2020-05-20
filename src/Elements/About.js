@@ -27,8 +27,8 @@ function Header() {
             Instagram: <a href="https://www.instagram.com/app.chefy"><b>
              @app.chefy
             </b></a> <br></br>
-            Facebook: <a href="https://www.facebook.com/chefy.app.14"><b>
-             @chefy.app.14
+            Twitter: <a href="https://twitter.com/Chefy06440137"><b>
+            @AppChefy
             </b></a> <br></br>
             <a><b>
               Author: Daniel Rosel
