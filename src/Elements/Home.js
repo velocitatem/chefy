@@ -6,28 +6,13 @@ function Home() {
     <div class="container">
         <div>        
            <p id="cover">
-           <div class="row">
-                <div class="col-lg-12">
-
-                    <div class="row">
-                        <div class="col-lg-4">
-
-                        </div>
-                        <div class="col-lg-4">
-                        <center id="titleSpanHome">
-                    <img id="home" src="logo.png">                                                
-                    </img> <br></br>                         
-                    <h1>
-                    </h1>
-
-                    </center>
-                        </div>
-                        <div class="col-lg-4">
-
-                        </div>
-                    </div>
+           <div class="row">                
+           <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                <img id="home" src="logo.png"></img>
                 </div>
             </div>   
+            <div class="col-lg-2"></div>
            </p>
            <div class="row">
            <div class="col-sm-4">
@@ -75,16 +60,7 @@ function Home() {
             </div> 
             <hr></hr>
             <div class="row">
-                <div class="col-sm-6">
-                    <center>
-                        <h1>Try Now</h1>
-                    </center>
-                </div>
-                <div class="col-sm-6">
-                    <h3>
-                        Open your fridge and select what you have <a href="/select#select">HERE</a>
-                    </h3>
-                </div>
+
             </div>      
         </div>
     </div>

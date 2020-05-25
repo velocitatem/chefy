@@ -85,9 +85,9 @@ function match(steps, allSteps, book, r, step) {
     }        
     
     $("#items").append(`
-    <p>    
     <div class="row">
     <div class="col-sm-12">
+    <div >    
         
         <div class="row">
         <div class="col-sm-5">
@@ -97,7 +97,7 @@ function match(steps, allSteps, book, r, step) {
         <h3>
         ${book[r].name}
         </h3>
-        -<B>You should have everything you need</b></b> <br>
+        <B>You should have everything you need</b></b> ✔️ <br>
         <p id="aboutFood">
         <a id="tags">
         ${tags} 
@@ -113,10 +113,10 @@ function match(steps, allSteps, book, r, step) {
         </div>        
     ${allSteps}
     </p>
+    </div>    
     </div>
     <hr>
     </div>
-    </p>
     `)
 }
 var uit = ""
@@ -197,13 +197,15 @@ $(document).ready(function () {
             <h3>
             ${book[r].name}
             </h3>
-            -<u>You might not have all the ingredients! </u></b> <br>
+            <u>You might not have all the ingredients </u></b> ❗ <br>
             <p id="aboutFood">          
             <a id="tags">
             ${tags} 
             </a>           
             <br>            
             <a href="/share/?item=${book[r].name}">Share/Enlarge</a> <br>
+            <button class="btn btn-outline-dark" data-toggle="modal" data-target="#metricModal">Metric</button>
+            <button class="btn btn-outline-dark" id='imperial' data-toggle="modal" data-target="#imperialModal">Imperial</button>     
             <p id="missing">      
             ${missingItems}      
             </p>
@@ -365,7 +367,7 @@ function convertMet() {
 
 
 function Book() {
-  return (
+  return (          
     <div class="wrapper">
       <div class="container" >       
 
@@ -466,14 +468,15 @@ function Book() {
                 </div>
                 </div>
             </div>                  
-                <datalist id="filterO">                
+                <datalist id="filterO" >                
                 </datalist> 
             </div>
         </div>
-        <div id="items">
+        <div id="items" >
         </div>
         </div>
     </div>
+    
   );
 }
 /*

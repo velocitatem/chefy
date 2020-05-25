@@ -13,7 +13,7 @@ import Share from './Elements/Share'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
-<body>
+<app>
 <Header></Header>
 <Router>
     <div>
@@ -37,7 +37,7 @@ ReactDOM.render(
       </main>
     </div>
   </Router>
-</body>,
+</app>,
   document.getElementById('root')
 );
 serviceWorker.unregister();

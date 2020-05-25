@@ -27,20 +27,20 @@ function Header() {
     <div class="container">
         <h1 id="cont">Contribute your recipe</h1>
     <div id="contribute">
-        <input type="text" id="RCPname" placeholder="Name of the recipe"></input> <br></br>
+        <input type="text" id="RCPname" placeholder="Name of the recipe" class="form-control"></input> <br></br>
         <h3>Ingredients:</h3>        
-            <textarea  id="ingred" class="uin">
+            <textarea   id="ingred" class="form-control">
 
             </textarea>
             <h3>Steps:</h3>        
-            <textarea id="steps" class="uin">
+            <textarea id="steps" class="form-control">
 
             </textarea>
             <h3>Tags:</h3>        
-            <textarea id="tags" class="uin">
+            <textarea id="tags" class="form-control">
 
             </textarea>
-            <button onClick={send}>SEND</button> <br></br><br></br>
+            <button class="form-control" onClick={send}>SEND</button> <br></br><br></br>
         </div>
     </div>
     </div>

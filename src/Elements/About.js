@@ -35,8 +35,7 @@ function Header() {
             </b></a> <br></br>
             <a><b>
               <a href="https://danalves24com.github.io/data/cookbook-api/api.json">REST API</a>
-            </b></a> <br></br>
-            <a>V Beta4.2</a>
+            </b></a> <br></br>            
         </div>
     </div>
     </div>
