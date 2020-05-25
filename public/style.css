@@ -18,6 +18,9 @@
 #foodWrap {
     color: aqua;
 }
+#modalW {
+
+}
 #options {
     padding-top: 0.5cm;
 }
@@ -53,6 +56,9 @@
 #filter {
     border: solid;
     border-color: #deb887;
+}
+#units {
+
 }
 #icon {
     height: 3cm;
