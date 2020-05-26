@@ -85,38 +85,25 @@ function match(steps, allSteps, book, r, step) {
     }        
     
     $("#items").append(`
-    <div class="row">
-    <div class="col-sm-12">
-    <div >    
-        
-        <div class="row">
-        <div class="col-sm-5">
-        <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
-        </div>
-        <div class="col-sm-7">
-        <h3>
-        ${book[r].name}
-        </h3>
-        <B>You should have everything you need</b></b> ✔️ <br>
-        <p id="aboutFood">
-        <a id="tags">
-        ${tags} 
-        </a> <br>
-        <a href="/share/?item=${book[r].name}">Share/Enlarge</a> <br>
-        <button class="btn btn-outline-dark" data-toggle="modal" data-target="#metricModal">Metric</button>
-        <button class="btn btn-outline-dark" id='imperial' data-toggle="modal" data-target="#imperialModal">Imperial</button>                
-        <h5>Ingredients: </h5> 
-        <ul id='ings'>
+
+    <div class="card" style="width: auto;">
+    <img class="card-img-top" src="${book[r].img}" alt="Card image cap">
+    <div class"s">
+    <div class="card-body">
+      <h2 class="card-title">${book[r].name}</h2>
+      <b>You should have everything you need</b></b> ✔️ <br>
+      <a id="tags">
+      ${tags} 
+      </a> <br>
+      <p class="card-text">
+      <ul id='ings'>
         ${ing}
         </ul>
-        </div>        
-        </div>        
-    ${allSteps}
-    </p>
-    </div>    
+      </p>
+      <a href="/share/?item=${book[r].name}" class="btn btn-success">View Recipe</a>
     </div>
-    <hr>
     </div>
+  </div>   
     `)
 }
 var uit = ""
@@ -186,41 +173,28 @@ $(document).ready(function () {
                         missingItems += `- ${missing[tm]}<br>`
                     }
                     $("#items").append(`
-            <p>
-            <div class="row">
-            <div class="col-sm-12">            
-            <div class="row">
-            <div class="col-sm-5">
-            <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
-            </div>
-            <div class="col-sm-7">
-            <h3>
-            ${book[r].name}
-            </h3>
-            <u>You might not have all the ingredients </u></b> ❗ <br>
-            <p id="aboutFood">          
-            <a id="tags">
-            ${tags} 
-            </a>           
-            <br>            
-            <a href="/share/?item=${book[r].name}">Share/Enlarge</a> <br>
-            <button class="btn btn-outline-dark" data-toggle="modal" data-target="#metricModal">Metric</button>
-            <button class="btn btn-outline-dark" id='imperial' data-toggle="modal" data-target="#imperialModal">Imperial</button>     
-            <p id="missing">      
-            ${missingItems}      
-            </p>
-            </div>        
-            </div>             
-            <h5>Ingredients: </h5> 
-            <ul id='ings'>
-            ${ing}
-            </ul>    
-            ${allSteps}
-            </p>
-            </div>
-            <hr>
-            </div>
-            </p>
+
+                    <div class="card" style="width: auto;">
+                    <img class="card-img-top" src="${book[r].img}" alt="Card image cap">
+                    <div class"s">
+                    <div class="card-body">
+                      <h2 class="card-title">${book[r].name}</h2>
+                      <u>You might not have all the ingredients </u></b> ❗ <br>
+                      <a id="tags">
+                      ${tags} 
+                      </a> <br>
+                      <p class="card-text">
+                      <p id="missing">      
+                      ${missingItems}      
+                      </p>
+                      </p>
+                      <a href="/share/?item=${book[r].name}" class="btn btn-success">View Recipe</a>
+                    </div>
+                    </div>
+                  </div>
+
+
+           
             `)
                 }
         else {                                    
@@ -238,6 +212,8 @@ $(document).ready(function () {
 .catch(err => {
     console.log(err);    
 })
+
+
 $(document).ready(function(){
     $("#filter").on("keyup", function() {
       var value = $(this).val().toLowerCase();
@@ -247,123 +223,22 @@ $(document).ready(function(){
     });
   });
 
+  $(document).ready(function(){
+    $("#fiButton").on("click", function() {
+      var value = $(this).val().toLowerCase();
+      $("#items div").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+
+
 /**             
  */
 
-function convertImp() {
-    let amt = $("#valImp").val()
-    let unt = $("#unitImp").val()
-    console.log("converting", amt, unt)
-    let res
-    switch(unt){
-        case "cup/s":
-            res = amt*284.131
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "ml/grams")
-            $("#metRes").html(`${res} ml/grams`)
-            break;
-        case "tbsp":
-            res = amt*17.7582
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "ml/grams")
-            $("#metRes").html(`${res} ml/grams`)
-            break;
-        case "tsp":
-            res = amt*5.91939
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "ml/grams")
-            $("#metRes").html(`${res} ml/grams`)
-            break;
-        case "inches":
-            res = amt*2.54
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "cm")
-            $("#metRes").html(`${res} cm`)
-        case "ounce/s":
-            res = amt*28.34952
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "grams/ml")
-            $("#metRes").html(`${res} grams/ml`)
-            break;
-        case 'pound/s':
-            res = amt*453.5924
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "grams/ml")
-            $("#metRes").html(`${res} grams/ml`)
-            break;
-    }
-}
 
-function convertMet() {    
-    let amt = parseInt($("#valMet").val())
-    let unt = $("#unitMet").val()
-    console.log("converting", amt, unt)
-    let res
-    switch(unt){
-    case "gram/s":
-        if (amt<=450) {
-            res = amt*0.035
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "oz")
-            $("#impRes").html(`${res} oz`)
-        }
-        else if(amt>=450) {
-            res = amt*0.0022
-            res = String(res)
-            res = res.substring(0, 4)
-            console.log(res, "lb")
-            $("#impRes").html(`${res} lb`)
 
-        }
-        break;
-    case "mililiter/s":
-        if(amt<=5){ 
-            res = 0.2*amt
-            res = String(res)
-            res = res.substring(0, 3)
-            console.log(res, "tsp")
-            $("#impRes").html(`${res} tsp`)
-        }
-        else if(amt<=15 && amt>5) {
-            res = 0.05631201*amt
-            res = String(res)
-            res = res.substring(0, 3)
-            console.log(res, "tbsp")
-            $("#impRes").html(`${res} tbsp`)
-        }
-        else if(amt>=60){
-            res = 0.003519503*amt
-            res = String(res)
-            res = res.substring(0, 3)
-            console.log(res, "tbsp")
-            $("#impRes").html(`${res} cup/s`)
-        }
-        break;
-    case "centimeter/s":
-        if(amt<30){
-            res = amt*0.3937008
-            res = String(res)
-            res = res.substring(0, 3)
-            console.log(res, "tbsp")
-            $("#impRes").html(`${res} in`)
-        }
-        else if(amt>=30){
-            res = amt*0.03280839895
-            res = String(res)
-            res = res.substring(0, 3)
-            console.log(res, "tbsp")
-            $("#impRes").html(`${res} feet`)
-        }
-        break;
-}
-}
+
 
 
 function Book() {
@@ -372,107 +247,30 @@ function Book() {
       <div class="container" >       
 
 
-  <div class="modal" id="metricModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        <div class="modal-header">
-          <h4 class="modal-title">Metric => Imperial</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <div class="modal-body">
-
-
-        <div class="input-group"> 
-        <input type="number" id="valMet" class="form-control"></input>
-
-  <div class="input-group-append">
-  <select id="unitMet" class="form-control">
-            <option class="form-control">---</option>
-            <option class="form-control">gram/s</option>
-            <option class="form-control">mililiter/s</option>
-            <option class="form-control">centimeter/s</option>
-        </select>
-        <button class="form-control" onClick={convertMet}>Convert</button>
-  </div>
-</div>
 
 
 
-        <br></br>
-        =
-        <span id="impRes"></span>
-
-        </div>
-        
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="imperialModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        <div class="modal-header">
-          <h4 class="modal-title">Imperial => Metric</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <div class="modal-body">
-
-        <div class="input-group">
-        <input pattern="^[0-9/]*$" id="valImp" class="form-control"></input>
-
-  <div class="input-group-append">
-  <select id="unitImp" class="form-control">
-            <option>---</option>
-            <option>cup/s</option>
-            <option>tsp</option>
-            <option>tbsp</option>
-            <option>inches</option>
-            <option>ounce/s</option>
-            <option>pound/s</option>
-        </select> 
-        <button onClick={convertImp} class="form-control">Convert</button>
-  </div>
-</div>
 
 
-        <br></br>
-        =
-        <span id="metRes"></span>
 
-        </div>
-        
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
+
+
+
 
         <div class="row">
 
             <div id="filterW">
             <div>
-                <div ><input id="filter" list="filterO"  class="form-control" placeholder="select category.."></input>
-                <br></br>
-                <div id='units'>
-                    
-                </div>
+                <div id="filterButtons">
+                    <input id="filter" list="filterO"  class="form-control" placeholder="select category.."></input>
+                <br></br>                
                 </div>
             </div>                  
-                <datalist id="filterO" >                
+                <datalist id="filterO">                
                 </datalist> 
             </div>
         </div>
-        <div id="items" >
+        <div id="items" class="row row-cols-1 row-cols-md-2" >
         </div>
         </div>
     </div>
@@ -494,3 +292,86 @@ function Book() {
     }
 */
 export default Book;
+/**
+ * 
+ * 
+ * MISSING
+            <p>
+            <div class="row">
+            <div class="col-sm-12">            
+            <div class="row">
+            <div class="col-sm-5">
+            <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
+            </div>
+            <div class="col-sm-7">
+            <h3>
+            ${book[r].name}
+            </h3>
+            <u>You might not have all the ingredients </u></b> ❗ <br>
+            <p id="aboutFood">          
+            <a id="tags">
+            ${tags} 
+            </a>           
+            <br>            
+            <a href="/share/?item=${book[r].name}">Share/Enlarge</a> <br>
+           
+           
+            <button class="btn btn-outline-dark" data-toggle="modal" data-target="#metricModal">Metric</button>
+            <button class="btn btn-outline-dark" id='imperial' data-toggle="modal" data-target="#imperialModal">Imperial</button>     
+           
+           
+            <p id="missing">      
+            ${missingItems}      
+            </p>
+            </div>        
+            </div>             
+            <h5>Ingredients: </h5> 
+            <ul id='ings'>
+            ${ing}
+            </ul>    
+            ${allSteps}
+            </p>
+            </div>
+            <hr>
+            </div>
+            </p>
+
+
+    INCLUDING
+
+
+ <div class="row">
+    <div class="col-sm-12">
+    <div class="">    
+        
+        <div class="row">
+        <div class="col-sm-5">
+        <img alt="Picture not found" id="foodIMG" src="${book[r].img}"></img>    
+        </div>
+        <div class="col-sm-7">
+        <h3>
+        ${book[r].name}
+        </h3>
+        <B>You should have everything you need</b></b> ✔️ <br>
+        <p id="aboutFood">
+        <a id="tags">
+        ${tags} 
+        </a> <br>
+        <a href="/share/?item=${book[r].name}">Share/Enlarge</a> <br>
+        <button class="btn btn-outline-dark" data-toggle="modal" data-target="#metricModal">Metric</button>
+        <button class="btn btn-outline-dark" id='imperial' data-toggle="modal" data-target="#imperialModal">Imperial</button>                
+        <h5>Ingredients: </h5> 
+        <ul id='ings'>
+        ${ing}
+        </ul>
+        </div>        
+        </div>        
+    ${allSteps}
+    </p>
+    </div>    
+    </div>
+    <hr>
+    </div>
+
+
+ */
