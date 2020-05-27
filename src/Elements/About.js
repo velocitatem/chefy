@@ -1,5 +1,4 @@
 import React from 'react';
-import $ from  'jquery';
 function Header() {
   return (
 
@@ -31,8 +30,10 @@ function Header() {
             @AppChefy
             </b></a> <br></br>
             <a><b>
-              Author: Daniel Rosel
+              Creator: Daniel Rosel
             </b></a> <br></br>
+            recipe sources:
+    <a href="https://raw.githubusercontent.com/danalves24com/danalves24com.github.io/master/data/cookbook-api/src.json"> sources</a> <br></br>
             <a><b>
               <a href="https://danalves24com.github.io/data/cookbook-api/api.json">REST API</a>
             </b></a> <br></br>            

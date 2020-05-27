@@ -1,11 +1,11 @@
 import React from 'react';
+import Footer from './Footer'
 import $ from 'jquery';
-import ModalMetric from './metric'
-import modalMetric from './metric';
+
 
 var rcp
 var dataLength = 0
-var initialUnit = "metric"
+//var initialUnit = "metric"
 function report(abt) {
     const headers = new Headers()
     headers.append("Content-Type", "application/json")
@@ -246,17 +246,6 @@ function Book() {
     <div class="wrapper">
       <div class="container" >       
 
-
-
-
-
-
-
-
-
-
-
-
         <div class="row">
 
             <div id="filterW">
@@ -273,6 +262,7 @@ function Book() {
         <div id="items" class="row row-cols-1 row-cols-md-2" >
         </div>
         </div>
+        <Footer />
     </div>
     
   );

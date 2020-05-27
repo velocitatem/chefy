@@ -6,11 +6,6 @@ var dataLength = 0
 var filterTags = []
 var result = ""
 
-function print() {
-    $("#printButton").hide()
-    window.print()
-    $("#printButton").show()
-}
 
 function filter(data) {
     data = data.toLowerCase()
@@ -209,6 +204,7 @@ function convertImp() {
             res = res.substring(0, 4)
             console.log(res, "cm")
             $("#metRes").html(`${res} cm`)
+            break;
         case "ounce/s":
             res = amt*28.34952
             res = String(res)

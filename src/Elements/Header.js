@@ -1,8 +1,4 @@
 import React from 'react';
-import $ from  'jquery';
-function print() {
-  window.print()
-}
 function Header() {
   return (
 //navbar-dark bg-dark    <button class="nav-link" id="printButton" value = "Print page" onClick = {print}>Print Page</button>

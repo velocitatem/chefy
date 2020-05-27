@@ -1,5 +1,6 @@
 import React from 'react';
 import $ from  'jquery';
+import Footer from './Footer'
 $("#home").attr("src", "")
 function Home() {
   return (      
@@ -9,7 +10,7 @@ function Home() {
            <div class="row">                
            <div class="col-lg-2"></div>
                 <div class="col-lg-8">
-                <img id="home" src="logo.png"></img>
+                <img id="home" alt="chefyLogo" src="logo.png"></img>
                 </div>
             </div>   
             <div class="col-lg-2"></div>
@@ -71,6 +72,7 @@ function Home() {
             <div class="row">
 
             </div>      
+            <Footer />
         </div>
     </div>
   );
