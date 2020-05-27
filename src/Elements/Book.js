@@ -240,7 +240,7 @@ $(document).ready(function(){
 
 
 
-
+//row row-cols-1 row-cols-md-2
 function Book() {
   return (          
     <div class="wrapper">
@@ -259,7 +259,7 @@ function Book() {
                 </datalist> 
             </div>
         </div>
-        <div id="items" class="row row-cols-1 row-cols-md-2" >
+        <div id="items" class="card-columns" >
         </div>
         </div>
         <Footer />
