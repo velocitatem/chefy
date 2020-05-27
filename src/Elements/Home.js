@@ -34,27 +34,36 @@ function Home() {
            <hr></hr>
            <div class="row">
                <div class="col-sm-5">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2014%2F04%2F03%2F09%2F57%2Fclub-sandwich-309442_640.png&f=1&nofb=1" id='bnr'></img>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hyjZhnXhJn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                </div>
                <div class="col-sm-7">
-                    <h2 >
+               <h1>
                         Use Chefy!
-                    </h2>
+                </h1>
                     <ol>
                         <li>
+                            <h4>
                            <b> Select the items you have at home </b> (you can use the search bar to make things faster)
+                           </h4>
                         </li>
                         <li>
+                            <h4>
                             <b>Click "Create!"</b>
+                            </h4>
                         </li>
                         <li>
+                            <h4>
                             <b>Use the filter to specify the food category</b>
+                            </h4>
                         </li>
                         <li>
+                            <h4>
                             <b>Have Fun cooking!!</b>
+                            </h4>
                         </li>
+                        <h3>
                     <a id="startNow" href="/select">Start now</a>
-
+                    </h3>
                     </ol>
                </div>
             </div> 
