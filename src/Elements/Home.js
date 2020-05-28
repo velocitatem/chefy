@@ -17,19 +17,25 @@ function Home() {
            </p>
            <div class="row">
            <div class="col-sm-4">
-                <center>
-                    <h3 id="tt">Don't know what to cook with what you have?</h3>
-                </center>
+           <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title">Don't know what to cook with what you have?</h3>                                        
+                </div>
+            </div>                
             </div>
             <div class="col-sm-4">
-                <center>
-                    <h3>Don't want to get delivery?</h3>
-                </center>
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title">Don't want to get delivery?</h3>                                        
+                </div>
+            </div>                
             </div>
             <div class="col-sm-4">
-                <center>
-                    <h3>Can't go shopping?</h3>
-                </center>
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title">Can't/Don't want to go shopping?</h3>                                        
+                </div>
+            </div> 
             </div>
            </div> 
            <hr></hr>
